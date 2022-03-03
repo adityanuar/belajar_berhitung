@@ -3368,6 +3368,8 @@ anims/8 = SubResource( 11 )
 anims/9 = SubResource( 12 )
 anims/RESET = SubResource( 2 )
 
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+
 [connection signal="pressed" from="Control/LeftButton" to="." method="_on_LeftButton_pressed"]
 [connection signal="pressed" from="Control/RightButton" to="." method="_on_RightButton_pressed"]
 [connection signal="pressed" from="Control/HomeButton" to="." method="_on_HomeButton_pressed"]

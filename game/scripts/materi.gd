@@ -6,6 +6,13 @@ extends Node2D
 # var b = "text"
 var currPage = 1
 
+var clickSound = preload("res://sounds/click.wav")
+
+func playClick():
+	if !$AudioStreamPlayer2D.is_playing():
+		$AudioStreamPlayer2D.stream = clickSound
+		$AudioStreamPlayer2D.play()
+
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -13,6 +20,7 @@ func _ready():
 	$Control/LeftButton.set("disabled", true)
 	
 func navButtonStatus():
+	playClick()
 	if currPage == 1:
 		$Control/LeftButton.set("disabled", true)
 		$Control/RightButton.set("disabled", false)

@@ -41,7 +41,7 @@ custom_fonts/font = SubResource( 1 )
 text = "Materi
 "
 
-[node name="QuizButton" type="TextureButton" parent="."]
+[node name="ContohButton" type="TextureButton" parent="."]
 margin_left = 156.0
 margin_top = 363.0
 margin_right = 476.0
@@ -51,20 +51,39 @@ texture_normal = ExtResource( 3 )
 texture_pressed = ExtResource( 4 )
 script = ExtResource( 8 )
 
-[node name="Quiz_text" type="Label" parent="QuizButton"]
-margin_left = 118.0
-margin_top = 38.0
-margin_right = 206.0
-margin_bottom = 91.0
+[node name="Contoh_text" type="Label" parent="ContohButton"]
+margin_left = 92.6471
+margin_top = 38.2353
+margin_right = 236.647
+margin_bottom = 91.2353
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 1 )
-text = "Quiz"
+text = "Contoh"
 
-[node name="ExitButton" type="TextureButton" parent="."]
+[node name="QuizButton" type="TextureButton" parent="."]
 margin_left = 156.0
 margin_top = 464.0
 margin_right = 476.0
 margin_bottom = 612.0
+rect_scale = Vector2( 0.68, 0.68 )
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 4 )
+script = ExtResource( 8 )
+
+[node name="Quiz_text" type="Label" parent="QuizButton"]
+margin_left = 92.647
+margin_top = 36.7647
+margin_right = 241.647
+margin_bottom = 89.7647
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "Latihan"
+
+[node name="ExitButton" type="TextureButton" parent="."]
+margin_left = 156.0
+margin_top = 727.0
+margin_right = 476.0
+margin_bottom = 875.0
 rect_scale = Vector2( 0.68, 0.68 )
 texture_normal = ExtResource( 2 )
 texture_pressed = ExtResource( 5 )
@@ -78,6 +97,9 @@ custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 1 )
 text = "Exit"
 
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+
 [connection signal="pressed" from="MateriButton" to="MateriButton" method="_on_PlayButton_pressed"]
-[connection signal="pressed" from="QuizButton" to="QuizButton" method="_on_PlayButton_pressed"]
+[connection signal="pressed" from="ContohButton" to="MateriButton" method="_on_ContohButton_pressed"]
+[connection signal="pressed" from="QuizButton" to="QuizButton" method="_on_QuizButton_pressed"]
 [connection signal="pressed" from="ExitButton" to="MateriButton" method="_on_ExitButton_pressed"]
