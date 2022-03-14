@@ -56,4 +56,4 @@ func _on_ok_pressed():
 		step = step + 1
 		$QuestionPlayer.play(str(step+1))
 	else:
-		$QuestionPlayer.play("masker")
+		get_tree().change_scene("res://scenes/title.tscn")

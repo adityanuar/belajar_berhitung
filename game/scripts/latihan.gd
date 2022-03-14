@@ -95,4 +95,4 @@ func _on_answer_pressed(extra_arg_0):
 
 func _on_OKButton_pressed():
 	playClick()
-	$QuestionPlayer.play("masker")
+	get_tree().change_scene("res://scenes/title.tscn")

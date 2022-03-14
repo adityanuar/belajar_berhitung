@@ -30,7 +30,7 @@ func _on_PlayButton_pressed():
 
 
 func _on_ExitButton_pressed():
-	get_tree().quit()
+	get_node("../AnimationPlayer").play("MaskerIn")
 
 
 func _on_QuizButton_pressed():
@@ -44,3 +44,7 @@ func _on_ContohButton_pressed():
 	yield(get_tree().create_timer(0.5), "timeout")
 	get_tree().change_scene("res://scenes/contoh.tscn")
 
+
+
+func _on_RealExitButton_pressed():
+	get_tree().quit()

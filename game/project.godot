@@ -10,7 +10,7 @@ config_version=4
 
 [application]
 
-config/name="Belajar Berhitung"
+config/name="Lines and Angles"
 run/main_scene="res://scenes/title.tscn"
 boot_splash/image="res://images/splash.png"
 boot_splash/use_filter=false

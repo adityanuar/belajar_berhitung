@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://images/title.png" type="Texture" id=1]
 [ext_resource path="res://images/button_exit_normal.png" type="Texture" id=2]
@@ -6,11 +6,126 @@
 [ext_resource path="res://images/button_pressed.png" type="Texture" id=4]
 [ext_resource path="res://images/button_exit_pressed.png" type="Texture" id=5]
 [ext_resource path="res://fonts/Roboto-Bold.ttf" type="DynamicFontData" id=6]
+[ext_resource path="res://images/marker.png" type="Texture" id=7]
 [ext_resource path="res://scripts/PlayButton.gd" type="Script" id=8]
 
 [sub_resource type="DynamicFont" id=1]
 size = 45
 font_data = ExtResource( 6 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 40
+font_data = ExtResource( 6 )
+
+[sub_resource type="Animation" id=3]
+resource_name = "MaskerIn"
+tracks/0/type = "value"
+tracks/0/path = NodePath("TextureRect:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "bezier"
+tracks/1/path = NodePath("TextureRect:modulate:r")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"points": PoolRealArray( 1, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 1 )
+}
+tracks/2/type = "bezier"
+tracks/2/path = NodePath("TextureRect:modulate:g")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"points": PoolRealArray( 1, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 1 )
+}
+tracks/3/type = "bezier"
+tracks/3/path = NodePath("TextureRect:modulate:b")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"points": PoolRealArray( 1, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 1 )
+}
+tracks/4/type = "bezier"
+tracks/4/path = NodePath("TextureRect:modulate:a")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"points": PoolRealArray( 0, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 1 )
+}
+
+[sub_resource type="Animation" id=4]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("TextureRect:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ false ]
+}
+tracks/1/type = "bezier"
+tracks/1/path = NodePath("TextureRect:modulate:r")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"points": PoolRealArray( 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/2/type = "bezier"
+tracks/2/path = NodePath("TextureRect:modulate:g")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"points": PoolRealArray( 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/3/type = "bezier"
+tracks/3/path = NodePath("TextureRect:modulate:b")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"points": PoolRealArray( 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/4/type = "bezier"
+tracks/4/path = NodePath("TextureRect:modulate:a")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"points": PoolRealArray( 0, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
@@ -89,17 +204,48 @@ texture_normal = ExtResource( 2 )
 texture_pressed = ExtResource( 5 )
 
 [node name="Exit_text" type="Label" parent="ExitButton"]
-margin_left = 118.0
-margin_top = 38.0
-margin_right = 206.0
-margin_bottom = 91.0
+margin_left = 92.6471
+margin_top = 38.2352
+margin_right = 222.647
+margin_bottom = 91.2352
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 1 )
-text = "Exit"
+text = "Keluar"
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+visible = false
+modulate = Color( 1, 1, 1, 0 )
+margin_right = 540.0
+margin_bottom = 960.0
+texture = ExtResource( 7 )
+
+[node name="OKButton" type="TextureButton" parent="TextureRect"]
+margin_left = 293.0
+margin_top = 831.0
+margin_right = 613.0
+margin_bottom = 979.0
+rect_scale = Vector2( 0.7, 0.7 )
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 4 )
+
+[node name="Label" type="Label" parent="TextureRect/OKButton"]
+anchor_right = 0.141
+anchor_bottom = 0.139
+margin_left = 128.571
+margin_top = 41.4285
+margin_right = 136.451
+margin_bottom = 68.8565
+custom_fonts/font = SubResource( 2 )
+text = "OK"
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/MaskerIn = SubResource( 3 )
+anims/RESET = SubResource( 4 )
 
 [connection signal="pressed" from="MateriButton" to="MateriButton" method="_on_PlayButton_pressed"]
 [connection signal="pressed" from="ContohButton" to="MateriButton" method="_on_ContohButton_pressed"]
 [connection signal="pressed" from="QuizButton" to="QuizButton" method="_on_QuizButton_pressed"]
 [connection signal="pressed" from="ExitButton" to="MateriButton" method="_on_ExitButton_pressed"]
+[connection signal="pressed" from="TextureRect/OKButton" to="MateriButton" method="_on_RealExitButton_pressed"]
