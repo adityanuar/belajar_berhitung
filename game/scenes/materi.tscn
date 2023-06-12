@@ -1,4 +1,4 @@
-[gd_scene load_steps=41 format=2]
+[gd_scene load_steps=44 format=2]
 
 [ext_resource path="res://fonts/content_text_font.tres" type="DynamicFont" id=1]
 [ext_resource path="res://images/arrow_left.png" type="Texture" id=2]
@@ -28,6 +28,9 @@
 [ext_resource path="res://images/home.png" type="Texture" id=26]
 [ext_resource path="res://images/home_pressed.png" type="Texture" id=27]
 [ext_resource path="res://images/angle.PNG" type="Texture" id=28]
+[ext_resource path="res://images/materi e_sudut45.png" type="Texture" id=29]
+[ext_resource path="res://images/materi e_sudut60.png" type="Texture" id=30]
+[ext_resource path="res://images/materi e_sudut30.png" type="Texture" id=31]
 
 [sub_resource type="Animation" id=1]
 resource_name = "1"
@@ -3316,15 +3319,77 @@ margin_right = 517.0
 margin_bottom = 179.0
 custom_fonts/font = ExtResource( 1 )
 text = "Pada materi ini yang akan di pelajari yaitu tentang melukis sudut-sudut istimewa (90°, 60°, 45°, dan 30°).
-Contoh sudut 90°"
+Contoh:"
+autowrap = true
+
+[node name="Label9" type="Label" parent="content/11"]
+margin_left = 38.0
+margin_top = 474.0
+margin_right = 243.0
+margin_bottom = 496.0
+custom_fonts/font = ExtResource( 1 )
+text = "Sudut 60°"
+autowrap = true
+
+[node name="Label10" type="Label" parent="content/11"]
+margin_left = 38.0
+margin_top = 212.0
+margin_right = 241.0
+margin_bottom = 234.0
+custom_fonts/font = ExtResource( 1 )
+text = "Sudut 90°"
 autowrap = true
 
 [node name="TextureRect" type="TextureRect" parent="content/11"]
 margin_left = 38.0
-margin_top = 179.0
+margin_top = 249.0
 margin_right = 241.0
-margin_bottom = 382.0
+margin_bottom = 452.0
 texture = ExtResource( 24 )
+
+[node name="Label11" type="Label" parent="content/11"]
+margin_left = 308.0
+margin_top = 212.0
+margin_right = 511.0
+margin_bottom = 234.0
+custom_fonts/font = ExtResource( 1 )
+text = "Sudut 45°"
+autowrap = true
+
+[node name="TextureRect3" type="TextureRect" parent="content/11"]
+margin_left = 308.0
+margin_top = 249.0
+margin_right = 576.0
+margin_bottom = 515.0
+rect_scale = Vector2( 0.750679, 0.750679 )
+texture = ExtResource( 29 )
+expand = true
+
+[node name="TextureRect2" type="TextureRect" parent="content/11"]
+margin_left = 38.0
+margin_top = 510.0
+margin_right = 295.0
+margin_bottom = 745.0
+rect_scale = Vector2( 0.797572, 0.797572 )
+texture = ExtResource( 30 )
+
+[node name="Label12" type="Label" parent="content/11"]
+margin_left = 307.0
+margin_top = 474.0
+margin_right = 512.0
+margin_bottom = 496.0
+custom_fonts/font = ExtResource( 1 )
+text = "Sudut 30°"
+autowrap = true
+
+[node name="TextureRect4" type="TextureRect" parent="content/11"]
+margin_left = 307.0
+margin_top = 510.0
+margin_right = 589.0
+margin_bottom = 768.0
+rect_scale = Vector2( 0.721673, 0.721673 )
+texture = ExtResource( 31 )
+expand = true
 
 [node name="Control" type="Node2D" parent="."]
 

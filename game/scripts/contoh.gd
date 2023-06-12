@@ -5,7 +5,7 @@ extends Node2D
 # var a = 2
 # var b = "text"
 
-var answer = ["d", "d", "a"]
+var answer = ["d", "d", "a", "a", "a", "a"]
 var step = 0
 
 var correctSound = preload("res://sounds/correct.wav")
@@ -52,7 +52,7 @@ func _on_answer_pressed(extra_arg_0):
 
 func _on_ok_pressed():
 	playClick()
-	if step < 2:
+	if step < 5:
 		step = step + 1
 		$QuestionPlayer.play(str(step+1))
 	else:
