@@ -5,7 +5,7 @@ extends Node2D
 # var a = 2
 # var b = "text"
 
-var answer = ["c", "c", "b", "c"]
+var answer = ["c", "c", "b", "c", "c"]
 var step = 0
 var score = 0
 
@@ -62,7 +62,7 @@ func _on_answer_pressed(extra_arg_0):
 		playCorrect()
 	get_tree().get_root().get_node(btnNodeCorrect).visible = true
 	yield(get_tree().create_timer(1.0), "timeout")
-	if step < 3:
+	if step < 4:
 		step = step + 1
 		$QuestionPlayer.play(str(step+1))
 	else:

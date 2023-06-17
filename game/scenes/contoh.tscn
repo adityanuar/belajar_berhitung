@@ -1,4 +1,4 @@
-[gd_scene load_steps=32 format=2]
+[gd_scene load_steps=34 format=2]
 
 [ext_resource path="res://scripts/Navigation.gd" type="Script" id=1]
 [ext_resource path="res://fonts/Roboto-Bold.ttf" type="DynamicFontData" id=2]
@@ -16,6 +16,8 @@
 [ext_resource path="res://images/question 3.png" type="Texture" id=14]
 [ext_resource path="res://scripts/contoh.gd" type="Script" id=15]
 [ext_resource path="res://images/marker.png" type="Texture" id=16]
+[ext_resource path="res://images/contoh_soal_6.png" type="Texture" id=17]
+[ext_resource path="res://images/contoh_soal_4.png" type="Texture" id=18]
 
 [sub_resource type="Animation" id=4]
 resource_name = "1"
@@ -2470,7 +2472,7 @@ modulate = Color( 1, 1, 1, 0 )
 [node name="bg" type="ColorRect" parent="1"]
 margin_right = 540.0
 margin_bottom = 960.0
-color = Color( 0.145098, 0.145098, 0.145098, 0.843137 )
+color = Color( 0.145098, 0.145098, 0.145098, 0.941176 )
 
 [node name="Label3" type="Label" parent="1"]
 margin_left = 18.0
@@ -3170,7 +3172,7 @@ margin_top = 100.0
 margin_right = 538.0
 margin_bottom = 147.0
 custom_fonts/font = ExtResource( 13 )
-text = "4. Dari gambar berikut, diketahui perbandingan x : y adalah 2 : 7. Besar sudut x adalah ..."
+text = "4. Berapakah sudut yang terbesar?"
 autowrap = true
 
 [node name="TextureRect" type="TextureRect" parent="4"]
@@ -3178,7 +3180,7 @@ margin_left = 40.0
 margin_top = 168.0
 margin_right = 242.0
 margin_bottom = 288.0
-texture = ExtResource( 14 )
+texture = ExtResource( 18 )
 
 [node name="opsi" type="Node2D" parent="4"]
 position = Vector2( 0, -3.05176e-05 )
@@ -3202,7 +3204,7 @@ margin_bottom = 86.2983
 rect_scale = Vector2( 0.417518, 1.03275 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
-text = "d. 140°"
+text = "d. 180°"
 
 [node name="cross" type="TextureRect" parent="4/opsi/d"]
 visible = false
@@ -3241,7 +3243,7 @@ margin_bottom = 86.2983
 rect_scale = Vector2( 0.417518, 1.03275 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
-text = "c. 100°"
+text = "c. 120°"
 
 [node name="cross" type="TextureRect" parent="4/opsi/c"]
 visible = false
@@ -3280,7 +3282,7 @@ margin_bottom = 86.2983
 rect_scale = Vector2( 0.417518, 1.03275 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
-text = "b. 80°"
+text = "b. 60°"
 
 [node name="cross" type="TextureRect" parent="4/opsi/b"]
 visible = false
@@ -3319,7 +3321,7 @@ margin_bottom = 86.2983
 rect_scale = Vector2( 0.417518, 1.03275 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
-text = "a. 40°"
+text = "a. 30°"
 
 [node name="cross" type="TextureRect" parent="4/opsi/a"]
 visible = false
@@ -3350,10 +3352,13 @@ margin_bottom = 684.0
 custom_fonts/font = ExtResource( 13 )
 text = "4. Penjelasan :
 
-Untuk mencari besar sudut x dari sebuah perbandingan, jumlahkan perbandingannya
-x + y = 9
-diketahui bahwa x = 2, maka
-2 / 9 ×180° = 2 × 20° = 40°"
+Jumlah sudut adalah 180°
+Maka:
+4x + x + x = 180°
+6x = 180°
+x = 30°
+Sudut yang terbesar adalah 4x sehingga sudutnya
+4x = 4. 30° = 120°"
 autowrap = true
 
 [node name="OKButton" type="TextureButton" parent="4/opsi/detail"]
@@ -3375,22 +3380,6 @@ margin_bottom = 68.8565
 custom_fonts/font = SubResource( 3 )
 text = "OK"
 
-[node name="TextureRect7" type="TextureRect" parent="4/opsi/detail"]
-margin_left = 109.0
-margin_top = 564.0
-margin_right = 149.0
-margin_bottom = 607.0
-rect_scale = Vector2( 0.441185, 0.441185 )
-texture = ExtResource( 11 )
-
-[node name="TextureRect8" type="TextureRect" parent="4/opsi/detail"]
-margin_left = 194.0
-margin_top = 564.0
-margin_right = 234.0
-margin_bottom = 607.0
-rect_scale = Vector2( 0.441185, 0.441185 )
-texture = ExtResource( 11 )
-
 [node name="5" type="Node2D" parent="."]
 modulate = Color( 1, 1, 1, 0 )
 
@@ -3404,19 +3393,13 @@ margin_left = 18.0
 margin_top = 100.0
 margin_right = 538.0
 margin_bottom = 147.0
+rect_pivot_offset = Vector2( 119, 24 )
 custom_fonts/font = ExtResource( 13 )
-text = "5. Dari gambar berikut, diketahui perbandingan x : y adalah 2 : 7. Besar sudut x adalah ..."
+text = "5. Jika diketahui    P = (2x + 8)° dan     Q = (x – 5)°. Kedua sudut tersebut berpenyiku maka     Q adalah…."
 autowrap = true
 
-[node name="TextureRect" type="TextureRect" parent="5"]
-margin_left = 40.0
-margin_top = 168.0
-margin_right = 242.0
-margin_bottom = 288.0
-texture = ExtResource( 14 )
-
 [node name="opsi" type="Node2D" parent="5"]
-position = Vector2( -610, 0 )
+position = Vector2( 0, -3.05176e-05 )
 
 [node name="d" type="TextureButton" parent="5/opsi"]
 margin_left = 119.0
@@ -3437,7 +3420,7 @@ margin_bottom = 86.2983
 rect_scale = Vector2( 0.417518, 1.03275 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
-text = "d. 140°"
+text = "d. 32°"
 
 [node name="cross" type="TextureRect" parent="5/opsi/d"]
 visible = false
@@ -3476,7 +3459,7 @@ margin_bottom = 86.2983
 rect_scale = Vector2( 0.417518, 1.03275 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
-text = "c. 100°"
+text = "c. 24°"
 
 [node name="cross" type="TextureRect" parent="5/opsi/c"]
 visible = false
@@ -3515,7 +3498,7 @@ margin_bottom = 86.2983
 rect_scale = Vector2( 0.417518, 1.03275 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
-text = "b. 80°"
+text = "b. 16°"
 
 [node name="cross" type="TextureRect" parent="5/opsi/b"]
 visible = false
@@ -3554,7 +3537,7 @@ margin_bottom = 86.2983
 rect_scale = Vector2( 0.417518, 1.03275 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
-text = "a. 40°"
+text = "a. 8°"
 
 [node name="cross" type="TextureRect" parent="5/opsi/a"]
 visible = false
@@ -3585,10 +3568,15 @@ margin_bottom = 684.0
 custom_fonts/font = ExtResource( 13 )
 text = "5. Penjelasan :
 
-Untuk mencari besar sudut x dari sebuah perbandingan, jumlahkan perbandingannya
-x + y = 9
-diketahui bahwa x = 2, maka
-2 / 9 ×180° = 2 × 20° = 40°"
+Besar sudut berpenyiku adalah 90°
+    P +     Q = 90°
+2x + 8° + x – 5° = 90°
+3x + 3° = 90°
+3x = 87°
+x = 29°
+subs x = 29° ke     Q
+    Q = (29 – 5)°
+    Q = 24°"
 autowrap = true
 
 [node name="OKButton" type="TextureButton" parent="5/opsi/detail"]
@@ -3610,19 +3598,67 @@ margin_bottom = 68.8565
 custom_fonts/font = SubResource( 3 )
 text = "OK"
 
-[node name="TextureRect7" type="TextureRect" parent="5/opsi/detail"]
-margin_left = 109.0
-margin_top = 564.0
-margin_right = 149.0
-margin_bottom = 607.0
+[node name="TextureRect7" type="TextureRect" parent="5/opsi"]
+margin_left = 152.0
+margin_top = 103.0
+margin_right = 192.0
+margin_bottom = 146.0
 rect_scale = Vector2( 0.441185, 0.441185 )
 texture = ExtResource( 11 )
 
-[node name="TextureRect8" type="TextureRect" parent="5/opsi/detail"]
-margin_left = 194.0
-margin_top = 564.0
-margin_right = 234.0
-margin_bottom = 607.0
+[node name="TextureRect8" type="TextureRect" parent="5/opsi"]
+margin_left = 303.0
+margin_top = 103.0
+margin_right = 343.0
+margin_bottom = 146.0
+rect_scale = Vector2( 0.441185, 0.441185 )
+texture = ExtResource( 11 )
+
+[node name="TextureRect9" type="TextureRect" parent="5/opsi"]
+margin_left = 234.0
+margin_top = 128.0
+margin_right = 274.0
+margin_bottom = 171.0
+rect_scale = Vector2( 0.441185, 0.441185 )
+texture = ExtResource( 11 )
+
+[node name="TextureRect10" type="TextureRect" parent="5/opsi"]
+margin_left = 637.0
+margin_top = 589.0
+margin_right = 677.0
+margin_bottom = 632.0
+rect_scale = Vector2( 0.441185, 0.441185 )
+texture = ExtResource( 11 )
+
+[node name="TextureRect11" type="TextureRect" parent="5/opsi"]
+margin_left = 683.0
+margin_top = 589.0
+margin_right = 723.0
+margin_bottom = 632.0
+rect_scale = Vector2( 0.441185, 0.441185 )
+texture = ExtResource( 11 )
+
+[node name="TextureRect12" type="TextureRect" parent="5/opsi"]
+margin_left = 760.0
+margin_top = 715.0
+margin_right = 800.0
+margin_bottom = 758.0
+rect_scale = Vector2( 0.441185, 0.441185 )
+texture = ExtResource( 11 )
+
+[node name="TextureRect13" type="TextureRect" parent="5/opsi"]
+margin_left = 637.0
+margin_top = 741.0
+margin_right = 677.0
+margin_bottom = 784.0
+rect_scale = Vector2( 0.441185, 0.441185 )
+texture = ExtResource( 11 )
+
+[node name="TextureRect14" type="TextureRect" parent="5/opsi"]
+margin_left = 637.0
+margin_top = 766.0
+margin_right = 677.0
+margin_bottom = 809.0
 rect_scale = Vector2( 0.441185, 0.441185 )
 texture = ExtResource( 11 )
 
@@ -3641,7 +3677,7 @@ margin_top = 100.0
 margin_right = 538.0
 margin_bottom = 147.0
 custom_fonts/font = ExtResource( 13 )
-text = "6. Dari gambar berikut, diketahui perbandingan x : y adalah 2 : 7. Besar sudut x adalah ..."
+text = "6. Perhatikan gambar dibawah ini"
 autowrap = true
 
 [node name="TextureRect" type="TextureRect" parent="6"]
@@ -3649,7 +3685,7 @@ margin_left = 40.0
 margin_top = 168.0
 margin_right = 242.0
 margin_bottom = 288.0
-texture = ExtResource( 14 )
+texture = ExtResource( 17 )
 
 [node name="opsi" type="Node2D" parent="6"]
 position = Vector2( 0, -3.05176e-05 )
@@ -3673,7 +3709,7 @@ margin_bottom = 86.2983
 rect_scale = Vector2( 0.417518, 1.03275 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
-text = "d. 140°"
+text = "d. 116°"
 
 [node name="cross" type="TextureRect" parent="6/opsi/d"]
 visible = false
@@ -3712,7 +3748,7 @@ margin_bottom = 86.2983
 rect_scale = Vector2( 0.417518, 1.03275 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
-text = "c. 100°"
+text = "c. 106°"
 
 [node name="cross" type="TextureRect" parent="6/opsi/c"]
 visible = false
@@ -3751,7 +3787,7 @@ margin_bottom = 86.2983
 rect_scale = Vector2( 0.417518, 1.03275 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
-text = "b. 80°"
+text = "b. 96°"
 
 [node name="cross" type="TextureRect" parent="6/opsi/b"]
 visible = false
@@ -3790,7 +3826,7 @@ margin_bottom = 86.2983
 rect_scale = Vector2( 0.417518, 1.03275 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
-text = "a. 40°"
+text = "a. 86°"
 
 [node name="cross" type="TextureRect" parent="6/opsi/a"]
 visible = false
@@ -3821,10 +3857,11 @@ margin_bottom = 684.0
 custom_fonts/font = ExtResource( 13 )
 text = "6. Penjelasan :
 
-Untuk mencari besar sudut x dari sebuah perbandingan, jumlahkan perbandingannya
-x + y = 9
-diketahui bahwa x = 2, maka
-2 / 9 ×180° = 2 × 20° = 40°"
+Karena P dan Q sejajar maka     4 adalah 74°
+    3 +     4 = 180°
+    3 + 74° = 180°
+    3 = 180° – 74°
+    3 = 106° "
 autowrap = true
 
 [node name="OKButton" type="TextureButton" parent="6/opsi/detail"]
@@ -3846,19 +3883,51 @@ margin_bottom = 68.8565
 custom_fonts/font = SubResource( 3 )
 text = "OK"
 
-[node name="TextureRect7" type="TextureRect" parent="6/opsi/detail"]
-margin_left = 109.0
-margin_top = 564.0
-margin_right = 149.0
-margin_bottom = 607.0
+[node name="TextureRect9" type="TextureRect" parent="6/opsi"]
+margin_left = 872.0
+margin_top = 565.0
+margin_right = 912.0
+margin_bottom = 608.0
 rect_scale = Vector2( 0.441185, 0.441185 )
 texture = ExtResource( 11 )
 
-[node name="TextureRect8" type="TextureRect" parent="6/opsi/detail"]
-margin_left = 194.0
-margin_top = 564.0
-margin_right = 234.0
-margin_bottom = 607.0
+[node name="TextureRect7" type="TextureRect" parent="6/opsi"]
+margin_left = 637.0
+margin_top = 589.0
+margin_right = 677.0
+margin_bottom = 632.0
+rect_scale = Vector2( 0.441185, 0.441185 )
+texture = ExtResource( 11 )
+
+[node name="TextureRect10" type="TextureRect" parent="6/opsi"]
+margin_left = 637.0
+margin_top = 614.0
+margin_right = 677.0
+margin_bottom = 657.0
+rect_scale = Vector2( 0.441185, 0.441185 )
+texture = ExtResource( 11 )
+
+[node name="TextureRect11" type="TextureRect" parent="6/opsi"]
+margin_left = 637.0
+margin_top = 639.0
+margin_right = 677.0
+margin_bottom = 682.0
+rect_scale = Vector2( 0.441185, 0.441185 )
+texture = ExtResource( 11 )
+
+[node name="TextureRect12" type="TextureRect" parent="6/opsi"]
+margin_left = 637.0
+margin_top = 664.0
+margin_right = 677.0
+margin_bottom = 707.0
+rect_scale = Vector2( 0.441185, 0.441185 )
+texture = ExtResource( 11 )
+
+[node name="TextureRect8" type="TextureRect" parent="6/opsi"]
+margin_left = 682.0
+margin_top = 589.0
+margin_right = 722.0
+margin_bottom = 632.0
 rect_scale = Vector2( 0.441185, 0.441185 )
 texture = ExtResource( 11 )
 

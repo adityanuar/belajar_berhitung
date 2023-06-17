@@ -1,4 +1,4 @@
-[gd_scene load_steps=29 format=2]
+[gd_scene load_steps=33 format=2]
 
 [ext_resource path="res://scripts/Navigation.gd" type="Script" id=1]
 [ext_resource path="res://fonts/Roboto-Bold.ttf" type="DynamicFontData" id=2]
@@ -18,6 +18,9 @@
 [ext_resource path="res://images/marker.png" type="Texture" id=16]
 [ext_resource path="res://images/read.png" type="Texture" id=17]
 [ext_resource path="res://fonts/content_text_title_font.tres" type="DynamicFont" id=18]
+[ext_resource path="res://images/l2.png" type="Texture" id=19]
+[ext_resource path="res://images/l1.png" type="Texture" id=20]
+[ext_resource path="res://images/latihan-5.png" type="Texture" id=21]
 
 [sub_resource type="Animation" id=4]
 resource_name = "1"
@@ -269,6 +272,18 @@ tracks/21/keys = {
 "update": 1,
 "values": [ false ]
 }
+tracks/22/type = "value"
+tracks/22/path = NodePath("5:visible")
+tracks/22/interp = 1
+tracks/22/loop_wrap = true
+tracks/22/imported = false
+tracks/22/enabled = true
+tracks/22/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
 
 [sub_resource type="Animation" id=8]
 resource_name = "2"
@@ -495,6 +510,18 @@ tracks/19/loop_wrap = true
 tracks/19/imported = false
 tracks/19/enabled = true
 tracks/19/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/20/type = "value"
+tracks/20/path = NodePath("5:visible")
+tracks/20/interp = 1
+tracks/20/loop_wrap = true
+tracks/20/imported = false
+tracks/20/enabled = true
+tracks/20/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
 "update": 1,
@@ -731,6 +758,18 @@ tracks/19/keys = {
 "update": 1,
 "values": [ false ]
 }
+tracks/20/type = "value"
+tracks/20/path = NodePath("5:visible")
+tracks/20/interp = 1
+tracks/20/loop_wrap = true
+tracks/20/imported = false
+tracks/20/enabled = true
+tracks/20/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
 
 [sub_resource type="Animation" id=13]
 resource_name = "4"
@@ -865,6 +904,165 @@ tracks/11/keys = {
 "transitions": PoolRealArray( 1 ),
 "update": 1,
 "values": [ false ]
+}
+tracks/12/type = "value"
+tracks/12/path = NodePath("5:visible")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=18]
+resource_name = "5"
+tracks/0/type = "bezier"
+tracks/0/path = NodePath("4/opsi:position:x")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"points": PoolRealArray( 0, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/1/type = "bezier"
+tracks/1/path = NodePath("4/opsi:position:y")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"points": PoolRealArray( -3.05176e-05, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("3:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("2:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("1:visible")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("masker:visible")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("rapor:visible")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("4:visible")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("5:visible")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/9/type = "bezier"
+tracks/9/path = NodePath("5:modulate:r")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/keys = {
+"points": PoolRealArray( 1, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 1 )
+}
+tracks/10/type = "bezier"
+tracks/10/path = NodePath("5:modulate:g")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/keys = {
+"points": PoolRealArray( 1, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 1 )
+}
+tracks/11/type = "bezier"
+tracks/11/path = NodePath("5:modulate:b")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/keys = {
+"points": PoolRealArray( 1, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 1 )
+}
+tracks/12/type = "bezier"
+tracks/12/path = NodePath("5:modulate:a")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/keys = {
+"points": PoolRealArray( 0, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 1 )
 }
 
 [sub_resource type="Animation" id=5]
@@ -1569,6 +1767,58 @@ tracks/63/keys = {
 "points": PoolRealArray( 0, -0.25, 0, 0.25, 0 ),
 "times": PoolRealArray( 0 )
 }
+tracks/64/type = "value"
+tracks/64/path = NodePath("5:visible")
+tracks/64/interp = 1
+tracks/64/loop_wrap = true
+tracks/64/imported = false
+tracks/64/enabled = true
+tracks/64/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ false ]
+}
+tracks/65/type = "bezier"
+tracks/65/path = NodePath("5:modulate:r")
+tracks/65/interp = 1
+tracks/65/loop_wrap = true
+tracks/65/imported = false
+tracks/65/enabled = true
+tracks/65/keys = {
+"points": PoolRealArray( 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/66/type = "bezier"
+tracks/66/path = NodePath("5:modulate:g")
+tracks/66/interp = 1
+tracks/66/loop_wrap = true
+tracks/66/imported = false
+tracks/66/enabled = true
+tracks/66/keys = {
+"points": PoolRealArray( 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/67/type = "bezier"
+tracks/67/path = NodePath("5:modulate:b")
+tracks/67/interp = 1
+tracks/67/loop_wrap = true
+tracks/67/imported = false
+tracks/67/enabled = true
+tracks/67/keys = {
+"points": PoolRealArray( 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/68/type = "bezier"
+tracks/68/path = NodePath("5:modulate:a")
+tracks/68/interp = 1
+tracks/68/loop_wrap = true
+tracks/68/imported = false
+tracks/68/enabled = true
+tracks/68/keys = {
+"points": PoolRealArray( 0, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
 
 [sub_resource type="Animation" id=14]
 resource_name = "rapor"
@@ -1684,6 +1934,7 @@ anims/1 = SubResource( 4 )
 anims/2 = SubResource( 8 )
 anims/3 = SubResource( 10 )
 anims/4 = SubResource( 13 )
+anims/5 = SubResource( 18 )
 anims/RESET = SubResource( 5 )
 anims/rapor = SubResource( 14 )
 
@@ -1696,12 +1947,12 @@ margin_bottom = 960.0
 color = Color( 0.145098, 0.145098, 0.145098, 0.843137 )
 
 [node name="Label3" type="Label" parent="1"]
-margin_left = 18.0
+margin_left = 40.0
 margin_top = 100.0
 margin_right = 518.0
 margin_bottom = 136.0
 custom_fonts/font = ExtResource( 13 )
-text = "1. Besar sudut terkecil yang dibentuk jarum jam pada pukul 04.00 sama dengan…"
+text = "Besar sudut terkecil yang dibentuk jarum jam pada pukul 04.00 sama dengan…"
 autowrap = true
 
 [node name="opsi" type="Node2D" parent="1"]
@@ -1873,12 +2124,12 @@ margin_bottom = 960.0
 color = Color( 0.145098, 0.145098, 0.145098, 0.843137 )
 
 [node name="Label3" type="Label" parent="2"]
-margin_left = 18.0
+margin_left = 40.0
 margin_top = 100.0
-margin_right = 518.0
-margin_bottom = 136.0
+margin_right = 289.0
+margin_bottom = 122.0
 custom_fonts/font = ExtResource( 13 )
-text = "2. Perhatikan gambar berikut."
+text = "Perhatikan gambar berikut."
 
 [node name="TextureRect" type="TextureRect" parent="2"]
 margin_left = 40.0
@@ -2063,12 +2314,12 @@ margin_bottom = 960.0
 color = Color( 0.145098, 0.145098, 0.145098, 0.843137 )
 
 [node name="Label3" type="Label" parent="3"]
-margin_left = 18.0
+margin_left = 40.0
 margin_top = 100.0
-margin_right = 538.0
-margin_bottom = 147.0
+margin_right = 311.0
+margin_bottom = 122.0
 custom_fonts/font = ExtResource( 13 )
-text = "3. Perhatikan gambar di bawah ini"
+text = "Perhatikan gambar di bawah ini"
 autowrap = true
 
 [node name="TextureRect" type="TextureRect" parent="3"]
@@ -2280,12 +2531,12 @@ margin_bottom = 960.0
 color = Color( 0.145098, 0.145098, 0.145098, 0.843137 )
 
 [node name="Label3" type="Label" parent="4"]
-margin_left = 18.0
+margin_left = 40.0
 margin_top = 100.0
-margin_right = 538.0
-margin_bottom = 147.0
+margin_right = 269.0
+margin_bottom = 122.0
 custom_fonts/font = ExtResource( 13 )
-text = "4. Perhatikan gambar berikut"
+text = "Perhatikan gambar berikut"
 autowrap = true
 
 [node name="TextureRect" type="TextureRect" parent="4"]
@@ -2326,7 +2577,7 @@ margin_bottom = 86.2983
 rect_scale = Vector2( 0.417518, 1.03275 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
-text = "d. 42"
+text = "d. 42°"
 
 [node name="cross" type="TextureRect" parent="4/opsi/d"]
 visible = false
@@ -2365,7 +2616,7 @@ margin_bottom = 86.2983
 rect_scale = Vector2( 0.417518, 1.03275 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
-text = "c. 34"
+text = "c. 34°"
 
 [node name="cross" type="TextureRect" parent="4/opsi/c"]
 visible = false
@@ -2404,7 +2655,7 @@ margin_bottom = 86.2983
 rect_scale = Vector2( 0.417518, 1.03275 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
-text = "b. 25"
+text = "b. 25°"
 
 [node name="cross" type="TextureRect" parent="4/opsi/b"]
 visible = false
@@ -2443,7 +2694,7 @@ margin_bottom = 86.2983
 rect_scale = Vector2( 0.417518, 1.03275 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
-text = "a. 17"
+text = "a. 17°"
 
 [node name="cross" type="TextureRect" parent="4/opsi/a"]
 visible = false
@@ -2462,6 +2713,216 @@ margin_right = 524.0
 margin_bottom = 353.493
 rect_scale = Vector2( 0.216063, 0.216063 )
 texture = ExtResource( 10 )
+
+[node name="5" type="Node2D" parent="."]
+visible = false
+modulate = Color( 1, 1, 1, 0 )
+
+[node name="bg" type="ColorRect" parent="5"]
+margin_right = 540.0
+margin_bottom = 960.0
+color = Color( 0.145098, 0.145098, 0.145098, 0.843137 )
+
+[node name="Label3" type="Label" parent="5"]
+margin_left = 40.0
+margin_top = 100.0
+margin_right = 269.0
+margin_bottom = 122.0
+custom_fonts/font = ExtResource( 13 )
+text = "Perhatikan gambar berikut"
+autowrap = true
+
+[node name="TextureRect" type="TextureRect" parent="5"]
+margin_left = 40.0
+margin_top = 132.0
+margin_right = 741.0
+margin_bottom = 454.0
+rect_scale = Vector2( 0.572812, 0.572812 )
+texture = ExtResource( 21 )
+
+[node name="Label4" type="Label" parent="5"]
+margin_left = 40.0
+margin_top = 332.0
+margin_right = 422.0
+margin_bottom = 379.0
+custom_fonts/font = ExtResource( 13 )
+text = "Jika       dan       sejajar, maka berapakah nilai x?"
+autowrap = true
+
+[node name="opsi" type="Node2D" parent="5"]
+position = Vector2( 0, -3.05176e-05 )
+
+[node name="d" type="TextureButton" parent="5/opsi"]
+margin_left = 119.0
+margin_top = 710.0
+margin_right = 439.0
+margin_bottom = 858.0
+rect_scale = Vector2( 1, 0.627 )
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 4 )
+
+[node name="Label" type="Label" parent="5/opsi/d"]
+anchor_right = 0.141
+anchor_bottom = 0.139
+margin_left = 60.5821
+margin_top = 38.2983
+margin_right = 113.582
+margin_bottom = 86.2983
+rect_scale = Vector2( 0.417518, 1.03275 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 3 )
+text = "d. 40°"
+
+[node name="cross" type="TextureRect" parent="5/opsi/d"]
+visible = false
+margin_left = 212.0
+margin_top = 30.303
+margin_right = 524.0
+margin_bottom = 350.303
+rect_scale = Vector2( 0.216063, 0.216063 )
+texture = ExtResource( 6 )
+
+[node name="mark" type="TextureRect" parent="5/opsi/d"]
+visible = false
+margin_left = 212.0
+margin_top = 30.303
+margin_right = 524.0
+margin_bottom = 350.303
+rect_scale = Vector2( 0.216063, 0.216063 )
+texture = ExtResource( 10 )
+
+[node name="c" type="TextureButton" parent="5/opsi"]
+margin_left = 119.0
+margin_top = 611.0
+margin_right = 439.0
+margin_bottom = 759.0
+rect_scale = Vector2( 1, 0.627 )
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 4 )
+
+[node name="Label" type="Label" parent="5/opsi/c"]
+anchor_right = 0.141
+anchor_bottom = 0.139
+margin_left = 60.5821
+margin_top = 38.2983
+margin_right = 113.582
+margin_bottom = 86.2983
+rect_scale = Vector2( 0.417518, 1.03275 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 3 )
+text = "c. 30°"
+
+[node name="cross" type="TextureRect" parent="5/opsi/c"]
+visible = false
+margin_left = 212.0
+margin_top = 30.303
+margin_right = 524.0
+margin_bottom = 350.303
+rect_scale = Vector2( 0.216063, 0.216063 )
+texture = ExtResource( 6 )
+
+[node name="mark" type="TextureRect" parent="5/opsi/c"]
+visible = false
+margin_left = 212.0
+margin_top = 30.303
+margin_right = 524.0
+margin_bottom = 350.303
+rect_scale = Vector2( 0.216063, 0.216063 )
+texture = ExtResource( 10 )
+
+[node name="b" type="TextureButton" parent="5/opsi"]
+margin_left = 119.0
+margin_top = 512.0
+margin_right = 439.0
+margin_bottom = 660.0
+rect_scale = Vector2( 1, 0.627 )
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 4 )
+
+[node name="Label" type="Label" parent="5/opsi/b"]
+anchor_right = 0.141
+anchor_bottom = 0.139
+margin_left = 60.5821
+margin_top = 38.2983
+margin_right = 113.582
+margin_bottom = 86.2983
+rect_scale = Vector2( 0.417518, 1.03275 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 3 )
+text = "b. 20°"
+
+[node name="cross" type="TextureRect" parent="5/opsi/b"]
+visible = false
+margin_left = 212.0
+margin_top = 33.4927
+margin_right = 524.0
+margin_bottom = 353.493
+rect_scale = Vector2( 0.216063, 0.216063 )
+texture = ExtResource( 6 )
+
+[node name="mark" type="TextureRect" parent="5/opsi/b"]
+visible = false
+margin_left = 212.0
+margin_top = 33.4927
+margin_right = 524.0
+margin_bottom = 353.493
+rect_scale = Vector2( 0.216063, 0.216063 )
+texture = ExtResource( 10 )
+
+[node name="a" type="TextureButton" parent="5/opsi"]
+margin_left = 119.0
+margin_top = 416.0
+margin_right = 439.0
+margin_bottom = 564.0
+rect_scale = Vector2( 1, 0.627 )
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 4 )
+
+[node name="Label" type="Label" parent="5/opsi/a"]
+anchor_right = 0.141
+anchor_bottom = 0.139
+margin_left = 60.5821
+margin_top = 38.2983
+margin_right = 113.582
+margin_bottom = 86.2983
+rect_scale = Vector2( 0.417518, 1.03275 )
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 3 )
+text = "a. 10°"
+
+[node name="cross" type="TextureRect" parent="5/opsi/a"]
+visible = false
+margin_left = 212.0
+margin_top = 33.4928
+margin_right = 524.0
+margin_bottom = 353.493
+rect_scale = Vector2( 0.216063, 0.216063 )
+texture = ExtResource( 6 )
+
+[node name="mark" type="TextureRect" parent="5/opsi/a"]
+visible = false
+margin_left = 212.0
+margin_top = 33.4928
+margin_right = 524.0
+margin_bottom = 353.493
+rect_scale = Vector2( 0.216063, 0.216063 )
+texture = ExtResource( 10 )
+
+[node name="TextureRect2" type="TextureRect" parent="5"]
+margin_left = 79.0
+margin_top = 332.0
+margin_right = 129.0
+margin_bottom = 382.0
+rect_scale = Vector2( 0.369653, 0.369653 )
+texture = ExtResource( 20 )
+
+[node name="TextureRect3" type="TextureRect" parent="5"]
+margin_left = 136.0
+margin_top = 332.0
+margin_right = 186.0
+margin_bottom = 382.0
+rect_scale = Vector2( 0.369653, 0.369653 )
+texture = ExtResource( 19 )
 
 [node name="masker" type="Node2D" parent="."]
 visible = false
@@ -2578,5 +3039,9 @@ texture_pressed = ExtResource( 7 )
 [connection signal="pressed" from="4/opsi/c" to="." method="_on_answer_pressed" binds= [ "c" ]]
 [connection signal="pressed" from="4/opsi/b" to="." method="_on_answer_pressed" binds= [ "b" ]]
 [connection signal="pressed" from="4/opsi/a" to="." method="_on_answer_pressed" binds= [ "a" ]]
+[connection signal="pressed" from="5/opsi/d" to="." method="_on_answer_pressed" binds= [ "d" ]]
+[connection signal="pressed" from="5/opsi/c" to="." method="_on_answer_pressed" binds= [ "c" ]]
+[connection signal="pressed" from="5/opsi/b" to="." method="_on_answer_pressed" binds= [ "b" ]]
+[connection signal="pressed" from="5/opsi/a" to="." method="_on_answer_pressed" binds= [ "a" ]]
 [connection signal="pressed" from="rapor/OKButton" to="." method="_on_OKButton_pressed"]
 [connection signal="pressed" from="Navigation/HomeButton" to="Navigation" method="_on_HomeButton_pressed"]

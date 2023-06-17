@@ -2549,7 +2549,7 @@ modulate = Color( 1, 1, 1, 0 )
 [node name="bg" type="ColorRect" parent="content/1"]
 margin_right = 540.0
 margin_bottom = 960.0
-color = Color( 0.831373, 0.388235, 0.0627451, 0.843137 )
+color = Color( 0.831373, 0.388235, 0.0627451, 0.941176 )
 
 [node name="Label" type="Label" parent="content/1"]
 margin_left = 18.0

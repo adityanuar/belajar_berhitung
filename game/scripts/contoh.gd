@@ -5,7 +5,7 @@ extends Node2D
 # var a = 2
 # var b = "text"
 
-var answer = ["d", "d", "a", "a", "a", "a"]
+var answer = ["d", "d", "a", "c", "c", "c"]
 var step = 0
 
 var correctSound = preload("res://sounds/correct.wav")
