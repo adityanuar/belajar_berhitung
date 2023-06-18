@@ -5,14 +5,33 @@ extends Node2D
 # var a = 2
 # var b = "text"
 
-var answer = ["c", "c", "b", "c", "c"]
+var answer = [
+		{ "index": 1, "answer" : "c"}, 
+		{ "index": 2, "answer" : "c"}, 
+		{ "index": 3, "answer" : "b"},
+		{ "index": 4, "answer" : "c"}, 
+		{ "index": 5, "answer" : "d"}, 
+		{ "index": 6, "answer" : "b"}, 
+		{ "index": 7, "answer" : "d"}, 
+		{ "index": 8, "answer" : "d"}, 
+		{ "index": 9, "answer" : "a"}, 
+		{ "index": 10, "answer" : "a"}, 
+		{ "index": 11, "answer" : "b"}, 
+		{ "index": 12, "answer" : "d"}, 
+		{ "index": 13, "answer" : "a"}, 
+		{ "index": 14, "answer" : "c"}, 
+		{ "index": 15, "answer" : "d"}
+	]
 var step = 0
 var score = 0
 
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	$QuestionPlayer.play("1")
+	randomize()
+	answer.shuffle()
+	$nomor.text = str(step+1)+". "
+	$QuestionPlayer.play(str(answer[step]["index"]))
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -52,9 +71,9 @@ func playDefeat():
 		$AudioStreamPlayer2D.play()
 
 func _on_answer_pressed(extra_arg_0):
-	var btnNodeAnswer = "root/{0}/opsi/{1}/cross".format([(step+1), (str(extra_arg_0))], "{_}")
-	var btnNodeCorrect = "root/{0}/opsi/{1}/mark".format([(step+1), answer[step]], "{_}")
-	if str(extra_arg_0) != answer[step]:
+	var btnNodeAnswer = "root/{0}/opsi/{1}/cross".format([(answer[step]["index"]), (str(extra_arg_0))], "{_}")
+	var btnNodeCorrect = "root/{0}/opsi/{1}/mark".format([(answer[step]["index"]), answer[step]["answer"]], "{_}")
+	if str(extra_arg_0) != answer[step]["answer"]:
 		get_tree().get_root().get_node(btnNodeAnswer).visible = true
 		playWrong()
 	else:
@@ -62,15 +81,16 @@ func _on_answer_pressed(extra_arg_0):
 		playCorrect()
 	get_tree().get_root().get_node(btnNodeCorrect).visible = true
 	yield(get_tree().create_timer(1.0), "timeout")
-	if step < 4:
+	if step < 14:
 		step = step + 1
-		$QuestionPlayer.play(str(step+1))
+		$QuestionPlayer.play(str(answer[step]["index"]))
+		$nomor.text = str(step+1)+". "
 	else:
 		var totalQuestion = answer.size()
 		print(score)
 		var finalScore = float(score) / float(totalQuestion) * 100
 		print(finalScore)
-		$rapor/score.text = str(finalScore)
+		$rapor/score.text = str("%.1f" % (finalScore))
 		if finalScore <= 50:
 			$rapor/score.add_color_override("font_color",  Color(1, 0, 0))
 #			$rapor/score.add_color_override("font_color",  Color(216, 6, 6))
