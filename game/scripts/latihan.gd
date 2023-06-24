@@ -24,12 +24,14 @@ var answer = [
 	]
 var step = 0
 var score = 0
+var jumlah_soal = 5
 
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	randomize()
 	answer.shuffle()
+	answer = answer.slice(0,jumlah_soal)
 	$nomor.text = str(step+1)+". "
 	$QuestionPlayer.play(str(answer[step]["index"]))
 
@@ -81,12 +83,12 @@ func _on_answer_pressed(extra_arg_0):
 		playCorrect()
 	get_tree().get_root().get_node(btnNodeCorrect).visible = true
 	yield(get_tree().create_timer(1.0), "timeout")
-	if step < 14:
+	if step < jumlah_soal-1:
 		step = step + 1
 		$QuestionPlayer.play(str(answer[step]["index"]))
 		$nomor.text = str(step+1)+". "
 	else:
-		var totalQuestion = answer.size()
+		var totalQuestion = jumlah_soal
 		print(score)
 		var finalScore = float(score) / float(totalQuestion) * 100
 		print(finalScore)
