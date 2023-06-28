@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\freelance\\belajar_berhitung\\game\\android\\build\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-ko\\values-ko.xml",
+            "outputFile": "com.godot.game-mergeReleaseResources-3:/values-ko/values-ko.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\adity\\.gradle\\caches\\transforms-3\\c5eaa7d939abb2d757f863a6b5340cdd\\transformed\\core-1.2.0\\res\\values-ko\\values-ko.xml",
+                    "source": "C:\\Users\\adity\\.gradle\\caches\\transforms-3\\086694f904f7332915774462ffe124fb\\transformed\\core-1.2.0\\res\\values-ko\\values-ko.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\adity\\.gradle\\caches\\transforms-3\\37bc03a8ede1a9b124de7f8b684e2a02\\transformed\\jetified-godot-lib.release\\res\\values-ko\\values-ko.xml",
+                    "source": "C:\\Users\\adity\\.gradle\\caches\\transforms-3\\0fa57c0f6a5b656a5e020e48cde123e3\\transformed\\jetified-godot-lib.release\\res\\values-ko\\values-ko.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\freelance\\belajar_berhitung\\game\\android\\build\\res\\values-ko\\godot_project_name_string.xml",
+                    "source": "C:\\D\\freelance\\belajar_berhitung\\game\\android\\build\\res\\values-ko\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",

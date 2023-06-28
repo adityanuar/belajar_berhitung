@@ -7,19 +7,13 @@
 
     <uses-sdk
         android:minSdkVersion="19"
-        android:targetSdkVersion="30" />
+        android:targetSdkVersion="32" />
 
     <supports-screens
         android:largeScreens="true"
         android:normalScreens="true"
         android:smallScreens="true"
         android:xlargeScreens="true" />
-
-    <instrumentation
-        android:name=".GodotInstrumentation"
-        android:icon="@mipmap/icon"
-        android:label="@string/godot_project_name_string"
-        android:targetPackage="com.adityanuar.$genname" />
     <!-- glEsVersion is modified by the exporter, changing this value here has no effect. -->
     <uses-feature
         android:glEsVersion="0x00020000"
@@ -37,6 +31,7 @@
             android:name="com.godot.game.GodotApp"
             android:configChanges="orientation|keyboardHidden|screenSize|smallestScreenSize|density|keyboard|navigation|screenLayout|uiMode"
             android:excludeFromRecents="false"
+            android:exported="true"
             android:label="@string/godot_project_name_string"
             android:launchMode="singleTask"
             android:resizeableActivity="false"
@@ -57,12 +52,18 @@
         <!-- Records the version of the Godot editor used for building -->
         <meta-data
             android:name="org.godotengine.editor.version"
-            android:value="3.4.3.stable" /> <!-- Records the version of the Godot library -->
+            android:value="3.5.2.stable" /> <!-- Records the version of the Godot library -->
         <meta-data
             android:name="org.godotengine.library.version"
-            android:value="3.4.3.stable" />
+            android:value="3.5.2.stable" />
 
         <service android:name="org.godotengine.godot.GodotDownloaderService" />
+
+        <activity
+            android:name="org.godotengine.godot.utils.ProcessPhoenix"
+            android:exported="false"
+            android:process=":phoenix"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
     </application>
 
 </manifest>
