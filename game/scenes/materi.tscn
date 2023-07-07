@@ -2827,7 +2827,7 @@ color = Color( 0.0627451, 0.560784, 0.831373, 0.843137 )
 [node name="Label" type="Label" parent="content/5"]
 margin_left = 18.0
 margin_top = 29.0
-margin_right = 558.0
+margin_right = 535.0
 margin_bottom = 90.0
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 9 )
