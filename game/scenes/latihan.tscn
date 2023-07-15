@@ -6598,13 +6598,14 @@ modulate = Color( 1, 1, 1, 0 )
 [node name="bg" type="ColorRect" parent="1"]
 margin_right = 540.0
 margin_bottom = 960.0
-color = Color( 0.145098, 0.145098, 0.145098, 0.843137 )
+color = Color( 0.984314, 0.984314, 0.984314, 1 )
 
 [node name="Label3" type="Label" parent="1"]
 margin_left = 40.0
 margin_top = 100.0
 margin_right = 518.0
 margin_bottom = 136.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 13 )
 text = "Besar sudut terkecil yang dibentuk jarum jam pada pukul 04.00 sama dengan…"
 autowrap = true
@@ -6775,13 +6776,14 @@ modulate = Color( 1, 1, 1, 0 )
 [node name="bg" type="ColorRect" parent="2"]
 margin_right = 540.0
 margin_bottom = 960.0
-color = Color( 0.145098, 0.145098, 0.145098, 0.843137 )
+color = Color( 0.984314, 0.984314, 0.984314, 1 )
 
 [node name="Label3" type="Label" parent="2"]
 margin_left = 40.0
 margin_top = 100.0
 margin_right = 289.0
 margin_bottom = 122.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 13 )
 text = "Perhatikan gambar berikut."
 
@@ -6797,6 +6799,7 @@ margin_left = 40.0
 margin_top = 244.0
 margin_right = 540.0
 margin_bottom = 280.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 13 )
 text = "Besar nilai a pada gambar di atas adalah …"
 
@@ -6965,13 +6968,14 @@ modulate = Color( 1, 1, 1, 0 )
 [node name="bg" type="ColorRect" parent="3"]
 margin_right = 540.0
 margin_bottom = 960.0
-color = Color( 0.145098, 0.145098, 0.145098, 0.843137 )
+color = Color( 0.984314, 0.984314, 0.984314, 1 )
 
 [node name="Label3" type="Label" parent="3"]
 margin_left = 40.0
 margin_top = 100.0
 margin_right = 311.0
 margin_bottom = 122.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 13 )
 text = "Perhatikan gambar di bawah ini"
 autowrap = true
@@ -6988,6 +6992,7 @@ margin_left = 40.0
 margin_top = 332.0
 margin_right = 560.0
 margin_bottom = 379.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 13 )
 text = "Jika m    EFB = 60° dan m    FCD = 120°, maka besar     BFC adalah..."
 autowrap = true
@@ -7152,6 +7157,7 @@ rect_scale = Vector2( 0.216063, 0.216063 )
 texture = ExtResource( 10 )
 
 [node name="TextureRect7" type="TextureRect" parent="3"]
+modulate = Color( 0, 0, 0, 1 )
 margin_left = 95.0
 margin_top = 334.0
 margin_right = 135.0
@@ -7160,6 +7166,7 @@ rect_scale = Vector2( 0.441185, 0.441185 )
 texture = ExtResource( 14 )
 
 [node name="TextureRect8" type="TextureRect" parent="3"]
+modulate = Color( 0, 0, 0, 1 )
 margin_left = 242.0
 margin_top = 334.0
 margin_right = 282.0
@@ -7168,6 +7175,7 @@ rect_scale = Vector2( 0.441185, 0.441185 )
 texture = ExtResource( 14 )
 
 [node name="TextureRect9" type="TextureRect" parent="3"]
+modulate = Color( 0, 0, 0, 1 )
 margin_left = 451.0
 margin_top = 334.0
 margin_right = 491.0
@@ -7182,13 +7190,14 @@ modulate = Color( 1, 1, 1, 0 )
 [node name="bg" type="ColorRect" parent="4"]
 margin_right = 540.0
 margin_bottom = 960.0
-color = Color( 0.145098, 0.145098, 0.145098, 0.843137 )
+color = Color( 0.984314, 0.984314, 0.984314, 1 )
 
 [node name="Label3" type="Label" parent="4"]
 margin_left = 40.0
 margin_top = 100.0
 margin_right = 269.0
 margin_bottom = 122.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 13 )
 text = "Perhatikan gambar berikut"
 autowrap = true
@@ -7205,6 +7214,7 @@ margin_left = 40.0
 margin_top = 332.0
 margin_right = 422.0
 margin_bottom = 379.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 13 )
 text = "Berdasarkan gambar di atas, berapa nilai x?"
 autowrap = true
@@ -7375,13 +7385,14 @@ modulate = Color( 1, 1, 1, 0 )
 [node name="bg" type="ColorRect" parent="5"]
 margin_right = 540.0
 margin_bottom = 960.0
-color = Color( 0.145098, 0.145098, 0.145098, 0.843137 )
+color = Color( 0.984314, 0.984314, 0.984314, 1 )
 
 [node name="Label3" type="Label" parent="5"]
 margin_left = 40.0
 margin_top = 100.0
 margin_right = 269.0
 margin_bottom = 122.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 13 )
 text = "Perhatikan gambar berikut"
 autowrap = true
@@ -7399,6 +7410,7 @@ margin_left = 40.0
 margin_top = 332.0
 margin_right = 422.0
 margin_bottom = 379.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 13 )
 text = "Jika       dan       sejajar, maka berapakah nilai x?"
 autowrap = true
@@ -7563,6 +7575,7 @@ rect_scale = Vector2( 0.216063, 0.216063 )
 texture = ExtResource( 10 )
 
 [node name="TextureRect2" type="TextureRect" parent="5"]
+modulate = Color( 0, 0, 0, 1 )
 margin_left = 79.0
 margin_top = 332.0
 margin_right = 129.0
@@ -7571,6 +7584,7 @@ rect_scale = Vector2( 0.369653, 0.369653 )
 texture = ExtResource( 20 )
 
 [node name="TextureRect3" type="TextureRect" parent="5"]
+modulate = Color( 0, 0, 0, 1 )
 margin_left = 136.0
 margin_top = 332.0
 margin_right = 186.0
@@ -7584,13 +7598,14 @@ modulate = Color( 1, 1, 1, 0 )
 [node name="bg" type="ColorRect" parent="6"]
 margin_right = 540.0
 margin_bottom = 960.0
-color = Color( 0.145098, 0.145098, 0.145098, 0.843137 )
+color = Color( 0.984314, 0.984314, 0.984314, 1 )
 
 [node name="Label3" type="Label" parent="6"]
 margin_left = 40.0
 margin_top = 100.0
 margin_right = 302.0
 margin_bottom = 122.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 13 )
 text = "Perhatikan gambar dibawah ini"
 autowrap = true
@@ -7608,6 +7623,7 @@ margin_left = 40.0
 margin_top = 332.0
 margin_right = 422.0
 margin_bottom = 379.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 13 )
 text = "Jika diketahui     a = 100° dan     b = 55°, tentukan jumlah sudut     x dan     y"
 autowrap = true
@@ -7772,6 +7788,7 @@ rect_scale = Vector2( 0.216063, 0.216063 )
 texture = ExtResource( 10 )
 
 [node name="TextureRect7" type="TextureRect" parent="6/opsi"]
+modulate = Color( 0, 0, 0, 1 )
 margin_left = 158.0
 margin_top = 335.0
 margin_right = 198.0
@@ -7780,6 +7797,7 @@ rect_scale = Vector2( 0.441185, 0.441185 )
 texture = ExtResource( 14 )
 
 [node name="TextureRect8" type="TextureRect" parent="6/opsi"]
+modulate = Color( 0, 0, 0, 1 )
 margin_left = 277.0
 margin_top = 335.0
 margin_right = 317.0
@@ -7788,6 +7806,7 @@ rect_scale = Vector2( 0.441185, 0.441185 )
 texture = ExtResource( 14 )
 
 [node name="TextureRect9" type="TextureRect" parent="6/opsi"]
+modulate = Color( 0, 0, 0, 1 )
 margin_left = 225.0
 margin_top = 360.0
 margin_right = 265.0
@@ -7796,6 +7815,7 @@ rect_scale = Vector2( 0.441185, 0.441185 )
 texture = ExtResource( 14 )
 
 [node name="TextureRect10" type="TextureRect" parent="6/opsi"]
+modulate = Color( 0, 0, 0, 1 )
 margin_left = 289.0
 margin_top = 360.0
 margin_right = 329.0
@@ -7810,13 +7830,14 @@ modulate = Color( 1, 1, 1, 0 )
 [node name="bg" type="ColorRect" parent="7"]
 margin_right = 540.0
 margin_bottom = 960.0
-color = Color( 0.145098, 0.145098, 0.145098, 0.843137 )
+color = Color( 0.984314, 0.984314, 0.984314, 1 )
 
 [node name="Label3" type="Label" parent="7"]
 margin_left = 40.0
 margin_top = 100.0
 margin_right = 302.0
 margin_bottom = 122.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 13 )
 text = "Perhatikan gambar berikut"
 autowrap = true
@@ -7834,6 +7855,7 @@ margin_left = 40.0
 margin_top = 332.0
 margin_right = 422.0
 margin_bottom = 379.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 13 )
 text = "Diketahui sudut     a = 23° dan     b = 71°, tentukan selisih     x dan     y"
 autowrap = true
@@ -7998,6 +8020,7 @@ rect_scale = Vector2( 0.216063, 0.216063 )
 texture = ExtResource( 10 )
 
 [node name="TextureRect7" type="TextureRect" parent="7/opsi"]
+modulate = Color( 0, 0, 0, 1 )
 margin_left = 172.0
 margin_top = 335.0
 margin_right = 212.0
@@ -8006,6 +8029,7 @@ rect_scale = Vector2( 0.441185, 0.441185 )
 texture = ExtResource( 14 )
 
 [node name="TextureRect8" type="TextureRect" parent="7/opsi"]
+modulate = Color( 0, 0, 0, 1 )
 margin_left = 281.0
 margin_top = 335.0
 margin_right = 321.0
@@ -8014,6 +8038,7 @@ rect_scale = Vector2( 0.441185, 0.441185 )
 texture = ExtResource( 14 )
 
 [node name="TextureRect9" type="TextureRect" parent="7/opsi"]
+modulate = Color( 0, 0, 0, 1 )
 margin_left = 174.0
 margin_top = 359.0
 margin_right = 214.0
@@ -8022,6 +8047,7 @@ rect_scale = Vector2( 0.441185, 0.441185 )
 texture = ExtResource( 14 )
 
 [node name="TextureRect10" type="TextureRect" parent="7/opsi"]
+modulate = Color( 0, 0, 0, 1 )
 margin_left = 237.0
 margin_top = 359.0
 margin_right = 277.0
@@ -8036,13 +8062,14 @@ modulate = Color( 1, 1, 1, 0 )
 [node name="bg" type="ColorRect" parent="8"]
 margin_right = 540.0
 margin_bottom = 960.0
-color = Color( 0.145098, 0.145098, 0.145098, 0.843137 )
+color = Color( 0.984314, 0.984314, 0.984314, 1 )
 
 [node name="Label3" type="Label" parent="8"]
 margin_left = 40.0
 margin_top = 100.0
 margin_right = 321.0
 margin_bottom = 122.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 13 )
 text = "Disajikan gambar jam dibawah ini"
 autowrap = true
@@ -8060,6 +8087,7 @@ margin_left = 40.0
 margin_top = 332.0
 margin_right = 422.0
 margin_bottom = 379.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 13 )
 text = "Berapakah jumlah sudut terbesar pada jam dinding tersebut?"
 autowrap = true
@@ -8230,13 +8258,14 @@ modulate = Color( 1, 1, 1, 0 )
 [node name="bg" type="ColorRect" parent="9"]
 margin_right = 540.0
 margin_bottom = 960.0
-color = Color( 0.145098, 0.145098, 0.145098, 0.843137 )
+color = Color( 0.984314, 0.984314, 0.984314, 1 )
 
 [node name="Label3" type="Label" parent="9"]
 margin_left = 40.0
 margin_top = 100.0
 margin_right = 264.0
 margin_bottom = 122.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 13 )
 text = "Perhatikan gambar berikut"
 autowrap = true
@@ -8246,7 +8275,7 @@ margin_left = 40.0
 margin_top = 132.0
 margin_right = 427.0
 margin_bottom = 338.0
-rect_scale = Vector2( 0.572812, 0.572812 )
+rect_scale = Vector2( 0.804089, 0.804089 )
 texture = ExtResource( 25 )
 
 [node name="Label4" type="Label" parent="9"]
@@ -8254,6 +8283,7 @@ margin_left = 40.0
 margin_top = 332.0
 margin_right = 422.0
 margin_bottom = 379.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 13 )
 text = "Besar sudut     B adalah…"
 autowrap = true
@@ -8418,6 +8448,7 @@ rect_scale = Vector2( 0.216063, 0.216063 )
 texture = ExtResource( 10 )
 
 [node name="TextureRect7" type="TextureRect" parent="9/opsi"]
+modulate = Color( 0, 0, 0, 1 )
 margin_left = 141.0
 margin_top = 335.0
 margin_right = 181.0
@@ -8432,13 +8463,14 @@ modulate = Color( 1, 1, 1, 0 )
 [node name="bg" type="ColorRect" parent="10"]
 margin_right = 540.0
 margin_bottom = 960.0
-color = Color( 0.145098, 0.145098, 0.145098, 0.843137 )
+color = Color( 0.984314, 0.984314, 0.984314, 1 )
 
 [node name="Label3" type="Label" parent="10"]
 margin_left = 40.0
 margin_top = 100.0
 margin_right = 289.0
 margin_bottom = 122.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 13 )
 text = "Perhatikan gambar berikut ini"
 autowrap = true
@@ -8456,6 +8488,7 @@ margin_left = 40.0
 margin_top = 332.0
 margin_right = 422.0
 margin_bottom = 379.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 13 )
 text = "Nilai y yang memenuhi adalah …"
 autowrap = true
@@ -8626,13 +8659,14 @@ modulate = Color( 1, 1, 1, 0 )
 [node name="bg" type="ColorRect" parent="11"]
 margin_right = 540.0
 margin_bottom = 960.0
-color = Color( 0.145098, 0.145098, 0.145098, 0.843137 )
+color = Color( 0.984314, 0.984314, 0.984314, 1 )
 
 [node name="Label3" type="Label" parent="11"]
 margin_left = 40.0
 margin_top = 100.0
 margin_right = 307.0
 margin_bottom = 122.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 13 )
 text = "Perhatikan gambar dibawah ini"
 autowrap = true
@@ -8650,6 +8684,7 @@ margin_left = 40.0
 margin_top = 332.0
 margin_right = 422.0
 margin_bottom = 379.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 13 )
 text = "Diketahui besar sudut     PQR adalah 90°. Besar sudut     PQS adalah …"
 autowrap = true
@@ -8814,6 +8849,7 @@ rect_scale = Vector2( 0.216063, 0.216063 )
 texture = ExtResource( 10 )
 
 [node name="TextureRect7" type="TextureRect" parent="11/opsi"]
+modulate = Color( 0, 0, 0, 1 )
 margin_left = 221.0
 margin_top = 335.0
 margin_right = 261.0
@@ -8822,6 +8858,7 @@ rect_scale = Vector2( 0.441185, 0.441185 )
 texture = ExtResource( 14 )
 
 [node name="TextureRect8" type="TextureRect" parent="11/opsi"]
+modulate = Color( 0, 0, 0, 1 )
 margin_left = 91.0
 margin_top = 360.0
 margin_right = 131.0
@@ -8836,13 +8873,14 @@ modulate = Color( 1, 1, 1, 0 )
 [node name="bg" type="ColorRect" parent="12"]
 margin_right = 540.0
 margin_bottom = 960.0
-color = Color( 0.145098, 0.145098, 0.145098, 0.843137 )
+color = Color( 0.984314, 0.984314, 0.984314, 1 )
 
 [node name="Label3" type="Label" parent="12"]
 margin_left = 40.0
 margin_top = 100.0
 margin_right = 307.0
 margin_bottom = 122.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 13 )
 text = "Perhatikan gambar berikut ini"
 autowrap = true
@@ -8860,6 +8898,7 @@ margin_left = 40.0
 margin_top = 332.0
 margin_right = 422.0
 margin_bottom = 379.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 13 )
 text = "Nilai     BOC yang memenuhi adalah …"
 autowrap = true
@@ -9024,6 +9063,7 @@ rect_scale = Vector2( 0.216063, 0.216063 )
 texture = ExtResource( 10 )
 
 [node name="TextureRect8" type="TextureRect" parent="12/opsi"]
+modulate = Color( 0, 0, 0, 1 )
 margin_left = 84.0
 margin_top = 334.0
 margin_right = 124.0
@@ -9038,13 +9078,14 @@ modulate = Color( 1, 1, 1, 0 )
 [node name="bg" type="ColorRect" parent="13"]
 margin_right = 540.0
 margin_bottom = 960.0
-color = Color( 0.145098, 0.145098, 0.145098, 0.843137 )
+color = Color( 0.984314, 0.984314, 0.984314, 1 )
 
 [node name="Label3" type="Label" parent="13"]
 margin_left = 40.0
 margin_top = 100.0
 margin_right = 304.0
 margin_bottom = 122.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 13 )
 text = "Perhatikan gambar dibawah ini"
 autowrap = true
@@ -9062,6 +9103,7 @@ margin_left = 40.0
 margin_top = 332.0
 margin_right = 422.0
 margin_bottom = 379.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 13 )
 text = "Besar sudut     ABC adalah …"
 autowrap = true
@@ -9226,6 +9268,7 @@ rect_scale = Vector2( 0.216063, 0.216063 )
 texture = ExtResource( 10 )
 
 [node name="TextureRect8" type="TextureRect" parent="13/opsi"]
+modulate = Color( 0, 0, 0, 1 )
 margin_left = 139.0
 margin_top = 334.0
 margin_right = 179.0
@@ -9240,13 +9283,14 @@ modulate = Color( 1, 1, 1, 0 )
 [node name="bg" type="ColorRect" parent="14"]
 margin_right = 540.0
 margin_bottom = 960.0
-color = Color( 0.145098, 0.145098, 0.145098, 0.843137 )
+color = Color( 0.984314, 0.984314, 0.984314, 1 )
 
 [node name="Label3" type="Label" parent="14"]
 margin_left = 40.0
 margin_top = 100.0
 margin_right = 304.0
 margin_bottom = 122.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 13 )
 text = "Perhatikan gambar dibawah ini"
 autowrap = true
@@ -9264,6 +9308,7 @@ margin_left = 40.0
 margin_top = 332.0
 margin_right = 422.0
 margin_bottom = 379.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 13 )
 text = "Besar sudut     BAC adalah …"
 autowrap = true
@@ -9428,6 +9473,7 @@ rect_scale = Vector2( 0.216063, 0.216063 )
 texture = ExtResource( 10 )
 
 [node name="TextureRect8" type="TextureRect" parent="14/opsi"]
+modulate = Color( 0, 0, 0, 1 )
 margin_left = 139.0
 margin_top = 334.0
 margin_right = 179.0
@@ -9442,13 +9488,14 @@ modulate = Color( 1, 1, 1, 0 )
 [node name="bg" type="ColorRect" parent="15"]
 margin_right = 540.0
 margin_bottom = 960.0
-color = Color( 0.145098, 0.145098, 0.145098, 0.843137 )
+color = Color( 0.984314, 0.984314, 0.984314, 1 )
 
 [node name="Label3" type="Label" parent="15"]
 margin_left = 40.0
 margin_top = 100.0
 margin_right = 259.0
 margin_bottom = 122.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 13 )
 text = "Perhatikan gambar berikut"
 autowrap = true
@@ -9466,6 +9513,7 @@ margin_left = 40.0
 margin_top = 332.0
 margin_right = 505.0
 margin_bottom = 404.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 13 )
 text = "Jika diketahui besar sudut nomor 1 adalah 101°, dan besar sudut nomor 2 adalah 158°. Maka besar sudut nomor 3 adalah …."
 autowrap = true
@@ -9733,6 +9781,7 @@ margin_left = 13.0
 margin_top = 100.0
 margin_right = 38.0
 margin_bottom = 122.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 13 )
 text = "1."
 align = 2

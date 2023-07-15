@@ -8,16 +8,21 @@ var currPage = 1
 
 var clickSound = preload("res://sounds/click.wav")
 
+var option = null
+
 func playClick():
-	if !$AudioStreamPlayer2D.is_playing():
-		$AudioStreamPlayer2D.stream = clickSound
-		$AudioStreamPlayer2D.play()
+	if option and option.sound_on:
+		if !$AudioStreamPlayer2D.is_playing():
+			$AudioStreamPlayer2D.stream = clickSound
+			$AudioStreamPlayer2D.play()
 
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	$AnimationPlayer.play("1")
 	$Control/LeftButton.set("disabled", true)
+	var lOption = Option.new()
+	option = lOption.load_data(lOption.file_location)
 	
 func navButtonStatus():
 	playClick()

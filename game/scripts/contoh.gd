@@ -12,25 +12,32 @@ var correctSound = preload("res://sounds/correct.wav")
 var wrongSound = preload("res://sounds/wrong.wav")
 var clickSound = preload("res://sounds/click.wav")
 
+var option = null
+
 func playClick():
-	if !$AudioStreamPlayer2D.is_playing():
-		$AudioStreamPlayer2D.stream = clickSound
-		$AudioStreamPlayer2D.play()
+	if option and option.sound_on:
+		if !$AudioStreamPlayer2D.is_playing():
+			$AudioStreamPlayer2D.stream = clickSound
+			$AudioStreamPlayer2D.play()
 		
 func playCorrect():
-	if !$AudioStreamPlayer2D.is_playing():
-		$AudioStreamPlayer2D.stream = correctSound
-		$AudioStreamPlayer2D.play()
+	if option and option.sound_on:
+		if !$AudioStreamPlayer2D.is_playing():
+			$AudioStreamPlayer2D.stream = correctSound
+			$AudioStreamPlayer2D.play()
 		
 func playWrong():
-	if !$AudioStreamPlayer2D.is_playing():
-		$AudioStreamPlayer2D.stream = wrongSound
-		$AudioStreamPlayer2D.play()
+	if option and option.sound_on:
+		if !$AudioStreamPlayer2D.is_playing():
+			$AudioStreamPlayer2D.stream = wrongSound
+			$AudioStreamPlayer2D.play()
 
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	$QuestionPlayer.play("1")
+	var lOption = Option.new()
+	option = lOption.load_data(lOption.file_location)
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
