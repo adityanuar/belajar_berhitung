@@ -194,6 +194,34 @@ custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 1 )
 text = "Latihan"
 
+[node name="SoundButton" type="TextureButton" parent="."]
+margin_left = 156.0
+margin_top = 566.0
+margin_right = 476.0
+margin_bottom = 714.0
+rect_scale = Vector2( 0.68, 0.68 )
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 4 )
+script = ExtResource( 8 )
+
+[node name="Sound_text" type="Label" parent="SoundButton"]
+margin_left = 45.588
+margin_top = 37.0
+margin_right = 197.588
+margin_bottom = 90.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "Sound :"
+
+[node name="Sound_value" type="Label" parent="SoundButton"]
+margin_left = 206.294
+margin_top = 37.0
+margin_right = 269.294
+margin_bottom = 90.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 1 )
+text = "Off"
+
 [node name="ExitButton" type="TextureButton" parent="."]
 margin_left = 156.0
 margin_top = 727.0
@@ -247,5 +275,6 @@ anims/RESET = SubResource( 4 )
 [connection signal="pressed" from="MateriButton" to="MateriButton" method="_on_PlayButton_pressed"]
 [connection signal="pressed" from="ContohButton" to="MateriButton" method="_on_ContohButton_pressed"]
 [connection signal="pressed" from="QuizButton" to="QuizButton" method="_on_QuizButton_pressed"]
+[connection signal="pressed" from="SoundButton" to="SoundButton" method="_on_SoundButton_pressed"]
 [connection signal="pressed" from="ExitButton" to="MateriButton" method="_on_ExitButton_pressed"]
 [connection signal="pressed" from="TextureRect/OKButton" to="MateriButton" method="_on_RealExitButton_pressed"]

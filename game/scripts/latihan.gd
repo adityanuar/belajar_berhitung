@@ -24,7 +24,7 @@ var answer = [
 	]
 var step = 0
 var score = 0
-var jumlah_soal = 5
+var jumlah_soal = 15
 
 var option = null
 

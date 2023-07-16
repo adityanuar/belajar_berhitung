@@ -2549,7 +2549,7 @@ modulate = Color( 1, 1, 1, 0 )
 [node name="bg" type="ColorRect" parent="content/1"]
 margin_right = 540.0
 margin_bottom = 960.0
-color = Color( 0.831373, 0.388235, 0.0627451, 0.941176 )
+color = Color( 1, 0.807843, 0.666667, 1 )
 
 [node name="Label" type="Label" parent="content/1"]
 margin_left = 18.0
@@ -2574,6 +2574,7 @@ margin_left = 18.0
 margin_top = 100.0
 margin_right = 518.0
 margin_bottom = 136.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 1 )
 text = "a. Hubungan Titik dan Garis"
 
@@ -2582,6 +2583,7 @@ margin_left = 38.0
 margin_top = 136.0
 margin_right = 506.0
 margin_bottom = 299.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 1 )
 text = "Hubungan antara titik dan garis dapat terjadi dalam dua kondisi. Pertama, titik terletak pada garis dan kedua, titik terletak di luar garis. Titik disebut terletak pada garis apabila titik tersebut ada pada garis, atau titik tersebut menjadi bagian dari garis. Titik di luar garis apabila titik tersebut tidak menjadi bagian dari garis."
 autowrap = true
@@ -2591,6 +2593,7 @@ margin_left = 38.0
 margin_top = 299.0
 margin_right = 423.0
 margin_bottom = 371.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 1 )
 text = "Berikut ini contoh titik pada garis dan titik di luar garis :
 "
@@ -2608,6 +2611,7 @@ margin_left = 18.0
 margin_top = 456.0
 margin_right = 518.0
 margin_bottom = 492.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 1 )
 text = "b. Hubungan Antara Titik dan Bidang"
 
@@ -2616,6 +2620,7 @@ margin_left = 38.0
 margin_top = 492.0
 margin_right = 506.0
 margin_bottom = 615.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 1 )
 text = "Keadaan di atas berlaku pula untuk hubungan titik dengan bidang. Titik terletak pada bidang atau titik tersebut menjadi bagian bidang. Perhatikan Gambar di bawah ini. Titik D tidak terletak pada bidang β."
 autowrap = true
@@ -2634,7 +2639,7 @@ modulate = Color( 1, 1, 1, 0 )
 [node name="bg" type="ColorRect" parent="content/2"]
 margin_right = 540.0
 margin_bottom = 960.0
-color = Color( 0.831373, 0.388235, 0.0627451, 0.843137 )
+color = Color( 1, 0.807843, 0.666667, 1 )
 
 [node name="Label" type="Label" parent="content/2"]
 margin_left = 18.0
@@ -2659,6 +2664,7 @@ margin_left = 18.0
 margin_top = 100.0
 margin_right = 518.0
 margin_bottom = 136.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 1 )
 text = "c. Hubungan Antara Garis dan Bidang"
 
@@ -2667,6 +2673,7 @@ margin_left = 38.0
 margin_top = 136.0
 margin_right = 506.0
 margin_bottom = 263.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 1 )
 text = "Hubungan antara garis dan bidang dapat diklasifikasikan menjadi tiga, yaitu: 1) garis terletak pada bidang, 2) garis tidak pada bidang, dan 3) garis menembus/memotong bidang. "
 autowrap = true
@@ -2676,6 +2683,7 @@ margin_left = 38.0
 margin_top = 263.0
 margin_right = 506.0
 margin_bottom = 505.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 1 )
 text = "Garis terletak pada bidang apabila garis menjadi bagian dari bidang. Letak garis l pada bidang (gambar i) membagi titik-titik pada bidang menjadi dua bagian bidang. Letak garis di luar bidang apabila garis tidak menjadi bagian bidang. Adapun garis menembus/memotong bidang apabila persekutuan antara garis dan bidang adalah sebuah titik. Berikut ilustrasi tiga kondisi/hubungan antara garis dengan bidang."
 autowrap = true
@@ -2685,6 +2693,7 @@ margin_left = 38.0
 margin_top = 505.0
 margin_right = 506.0
 margin_bottom = 553.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 1 )
 text = "Berikut ini contoh titik pada garis dan titik di luar garis :"
 autowrap = true
@@ -2703,7 +2712,7 @@ modulate = Color( 1, 1, 1, 0 )
 [node name="bg" type="ColorRect" parent="content/3"]
 margin_right = 540.0
 margin_bottom = 960.0
-color = Color( 0.831373, 0.388235, 0.0627451, 0.843137 )
+color = Color( 1, 0.807843, 0.666667, 1 )
 
 [node name="Label" type="Label" parent="content/3"]
 margin_left = 18.0
@@ -2728,6 +2737,7 @@ margin_left = 18.0
 margin_top = 100.0
 margin_right = 518.0
 margin_bottom = 136.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 1 )
 text = "d. Titik-titik segaris"
 
@@ -2736,6 +2746,7 @@ margin_left = 38.0
 margin_top = 136.0
 margin_right = 506.0
 margin_bottom = 276.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 1 )
 text = "Dua titik atau lebih dikatakan segaris jika titik-titik tersebut terletak pada garis yang sama. Pada Gambar dibawah titik A dan titik B dikatakan segaris, karena sama-sama terletak pada garis l. Sedangkan istilah titik-titik segaris bisa disebut kolinear"
 autowrap = true
@@ -2752,6 +2763,7 @@ margin_left = 18.0
 margin_top = 385.0
 margin_right = 518.0
 margin_bottom = 421.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 1 )
 text = "e. Titik-titik sebidang"
 
@@ -2760,6 +2772,7 @@ margin_left = 38.0
 margin_top = 421.0
 margin_right = 506.0
 margin_bottom = 561.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 1 )
 text = "Dua titik atau lebih dikatakan sebidang jika titik-titik tersebut terletak pada bidang yang sama. Pada Gambar dibawah titik C dan titik D dikatakan sebidang, karena sama-sama terletak pada bidang β. Sedangkan istilah titik-titik sebidang bisa disebut koplanar"
 autowrap = true
@@ -2778,7 +2791,7 @@ modulate = Color( 1, 1, 1, 0 )
 [node name="bg" type="ColorRect" parent="content/4"]
 margin_right = 540.0
 margin_bottom = 960.0
-color = Color( 0.831373, 0.388235, 0.0627451, 0.843137 )
+color = Color( 1, 0.807843, 0.666667, 1 )
 
 [node name="Label" type="Label" parent="content/4"]
 margin_left = 18.0
@@ -2803,6 +2816,7 @@ margin_left = 38.0
 margin_top = 100.0
 margin_right = 517.0
 margin_bottom = 222.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 1 )
 text = "Kedudukan dua garis baik dua garis sejajar, dua garis saling berpotongan, dua garis saling berhimpit padab bidang.
 Berikut ini contoh gambar dua garis saling sejajar, berpotongan dan berhimpit"
@@ -2822,12 +2836,12 @@ modulate = Color( 1, 1, 1, 0 )
 [node name="bg" type="ColorRect" parent="content/5"]
 margin_right = 540.0
 margin_bottom = 960.0
-color = Color( 0.0627451, 0.560784, 0.831373, 0.843137 )
+color = Color( 0.901961, 0.964706, 1, 1 )
 
 [node name="Label" type="Label" parent="content/5"]
 margin_left = 18.0
 margin_top = 29.0
-margin_right = 558.0
+margin_right = 535.0
 margin_bottom = 90.0
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 9 )
@@ -2839,6 +2853,7 @@ margin_left = 38.0
 margin_top = 100.0
 margin_right = 517.0
 margin_bottom = 222.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 1 )
 text = "Untuk memahami materi tentang ruas garis maka perhatikan contoh di bawah ini :
 Contoh :
@@ -2850,13 +2865,15 @@ margin_left = 38.0
 margin_top = 222.0
 margin_right = 275.0
 margin_bottom = 393.0
+rect_scale = Vector2( 0.581774, 0.581774 )
 texture = ExtResource( 13 )
 
 [node name="Label9" type="Label" parent="content/5"]
 margin_left = 38.0
-margin_top = 393.0
+margin_top = 488.0
 margin_right = 517.0
-margin_bottom = 615.0
+margin_bottom = 710.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 1 )
 text = "Jawaban :
 Diketahui pada gambar di atas bahwa BM//PQ, sehingga didapat:
@@ -2875,7 +2892,7 @@ modulate = Color( 1, 1, 1, 0 )
 [node name="bg" type="ColorRect" parent="content/6"]
 margin_right = 540.0
 margin_bottom = 960.0
-color = Color( 0.627451, 0.0627451, 0.831373, 0.843137 )
+color = Color( 0.945098, 0.882353, 0.964706, 1 )
 
 [node name="Label" type="Label" parent="content/6"]
 margin_left = 18.0
@@ -2900,6 +2917,7 @@ margin_left = 38.0
 margin_top = 100.0
 margin_right = 517.0
 margin_bottom = 208.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 1 )
 text = "Sudut terbentuk karena dua sinar garis bertemu pada satu titik. Misalnya pemanah, sudut terbentuk antara tangan dengan badan pemanah. (seperti tampak pada gambar di bawah ini:"
 autowrap = true
@@ -2916,6 +2934,7 @@ margin_left = 38.0
 margin_top = 371.0
 margin_right = 517.0
 margin_bottom = 425.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 1 )
 text = "Secara matematis, hubungan sinar garis dan titik sudut diilustrasikan sebagai berikut."
 autowrap = true
@@ -2932,12 +2951,14 @@ margin_left = 38.0
 margin_top = 649.0
 margin_right = 517.0
 margin_bottom = 871.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 1 )
 text = "Suatu sudut terbentuk dari perpotongan dua sinar garis yang berpotongan tepat di satu titik, sehingga titik potongnya disebut dengan titik sudut. Nama suatu sudut dapat berupa simbol α, β, dll, atau berdasarkan titik titik yang melalui garis yang berpotongan tersebut. Biasanya, satuan sudut dinyatakan dalam dua jenis, yaitu derajat (\"°\") dan radian (rad).   APB bisa juga disebut    P, dan besar sudut    P dilambangkan dengan m    P.
 Keterangan: Besar sudut satu putaran penuh adalah 360°"
 autowrap = true
 
 [node name="TextureRect3" type="TextureRect" parent="content/6"]
+modulate = Color( 0, 0, 0, 1 )
 margin_left = 168.0
 margin_top = 801.0
 margin_right = 208.0
@@ -2946,6 +2967,7 @@ rect_scale = Vector2( 0.441185, 0.441185 )
 texture = ExtResource( 28 )
 
 [node name="TextureRect4" type="TextureRect" parent="content/6"]
+modulate = Color( 0, 0, 0, 1 )
 margin_left = 358.0
 margin_top = 801.0
 margin_right = 398.0
@@ -2954,6 +2976,7 @@ rect_scale = Vector2( 0.441185, 0.441185 )
 texture = ExtResource( 28 )
 
 [node name="TextureRect5" type="TextureRect" parent="content/6"]
+modulate = Color( 0, 0, 0, 1 )
 margin_left = 83.0
 margin_top = 826.0
 margin_right = 123.0
@@ -2962,6 +2985,7 @@ rect_scale = Vector2( 0.441185, 0.441185 )
 texture = ExtResource( 28 )
 
 [node name="TextureRect6" type="TextureRect" parent="content/6"]
+modulate = Color( 0, 0, 0, 1 )
 margin_left = 314.0
 margin_top = 826.0
 margin_right = 354.0
@@ -2976,7 +3000,7 @@ modulate = Color( 1, 1, 1, 0 )
 [node name="bg" type="ColorRect" parent="content/7"]
 margin_right = 540.0
 margin_bottom = 960.0
-color = Color( 0.627451, 0.0627451, 0.831373, 0.843137 )
+color = Color( 0.945098, 0.882353, 0.964706, 1 )
 
 [node name="Label" type="Label" parent="content/7"]
 margin_left = 18.0
@@ -3002,6 +3026,7 @@ margin_left = 38.0
 margin_top = 136.0
 margin_right = 517.0
 margin_bottom = 226.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 1 )
 text = "Contoh :
 Tentukan ukuran sudut yang dibentuk oleh jarum jam dan jarum menit ketika menunjukkan pukul 02.00."
@@ -3019,6 +3044,7 @@ margin_left = 38.0
 margin_top = 442.0
 margin_right = 517.0
 margin_bottom = 663.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 1 )
 text = "Jawaban :
 Dengan memperhatikan Gambar diatas, kita dapat melihat bahwa pada pukul 02.00, jarum jam menunjuk ke arah bilangan 2 dan jarum menit menunjuk ke arah bilangan 12, sehingga sudut yang terbentuk adalah 1/6 putaran penuh.
@@ -3033,7 +3059,7 @@ modulate = Color( 1, 1, 1, 0 )
 [node name="bg" type="ColorRect" parent="content/8"]
 margin_right = 540.0
 margin_bottom = 960.0
-color = Color( 0.627451, 0.0627451, 0.831373, 0.843137 )
+color = Color( 0.945098, 0.882353, 0.964706, 1 )
 
 [node name="Label" type="Label" parent="content/8"]
 margin_left = 18.0
@@ -3059,6 +3085,7 @@ margin_left = 38.0
 margin_top = 103.0
 margin_right = 517.0
 margin_bottom = 193.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 1 )
 text = "Perlu kita kenalkan bahwa, terdapat ukuran sudut standar yang perlu kita ketahui, seperti yang disajikan pada gambar di bawah ini"
 autowrap = true
@@ -3075,6 +3102,7 @@ margin_left = 38.0
 margin_top = 409.0
 margin_right = 517.0
 margin_bottom = 576.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 1 )
 text = "Jenis-Jenis Sudut
 1. Sudut Siku-Siku: ukuran sudutnya 90°
@@ -3091,7 +3119,7 @@ modulate = Color( 1, 1, 1, 0 )
 [node name="bg" type="ColorRect" parent="content/9"]
 margin_right = 540.0
 margin_bottom = 960.0
-color = Color( 0.0627451, 0.831373, 0.741176, 0.843137 )
+color = Color( 0.721569, 0.807843, 0.8, 1 )
 
 [node name="Label" type="Label" parent="content/9"]
 margin_left = 18.0
@@ -3107,6 +3135,7 @@ margin_left = 38.0
 margin_top = 103.0
 margin_right = 517.0
 margin_bottom = 173.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 1 )
 text = "Berikut ini contoh gambar sudut berpelurus, berpenyiku dan bertolak belakang :"
 autowrap = true
@@ -3123,6 +3152,7 @@ margin_left = 38.0
 margin_top = 276.0
 margin_right = 517.0
 margin_bottom = 314.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 1 )
 text = "Contoh:"
 autowrap = true
@@ -3139,6 +3169,7 @@ margin_left = 38.0
 margin_top = 541.0
 margin_right = 517.0
 margin_bottom = 813.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 1 )
 text = "Gambar di diatas menunjukkan bahwa bahwa: m    AOB = r° ; m    BOC = s°
 
@@ -3152,6 +3183,7 @@ Hubungan antara m    BOC dan m    AOB disebut sudut berpenyiku."
 autowrap = true
 
 [node name="TextureRect5" type="TextureRect" parent="content/9"]
+modulate = Color( 0, 0, 0, 1 )
 margin_left = 428.0
 margin_top = 543.0
 margin_right = 468.0
@@ -3160,6 +3192,7 @@ rect_scale = Vector2( 0.441185, 0.441185 )
 texture = ExtResource( 28 )
 
 [node name="TextureRect6" type="TextureRect" parent="content/9"]
+modulate = Color( 0, 0, 0, 1 )
 margin_left = 62.0
 margin_top = 568.0
 margin_right = 102.0
@@ -3168,6 +3201,7 @@ rect_scale = Vector2( 0.441185, 0.441185 )
 texture = ExtResource( 28 )
 
 [node name="TextureRect7" type="TextureRect" parent="content/9"]
+modulate = Color( 0, 0, 0, 1 )
 margin_left = 54.0
 margin_top = 618.0
 margin_right = 94.0
@@ -3176,6 +3210,7 @@ rect_scale = Vector2( 0.441185, 0.441185 )
 texture = ExtResource( 28 )
 
 [node name="TextureRect9" type="TextureRect" parent="content/9"]
+modulate = Color( 0, 0, 0, 1 )
 margin_left = 54.0
 margin_top = 668.0
 margin_right = 94.0
@@ -3184,6 +3219,7 @@ rect_scale = Vector2( 0.441185, 0.441185 )
 texture = ExtResource( 28 )
 
 [node name="TextureRect11" type="TextureRect" parent="content/9"]
+modulate = Color( 0, 0, 0, 1 )
 margin_left = 186.0
 margin_top = 668.0
 margin_right = 226.0
@@ -3192,6 +3228,7 @@ rect_scale = Vector2( 0.441185, 0.441185 )
 texture = ExtResource( 28 )
 
 [node name="TextureRect10" type="TextureRect" parent="content/9"]
+modulate = Color( 0, 0, 0, 1 )
 margin_left = 54.0
 margin_top = 718.0
 margin_right = 94.0
@@ -3200,6 +3237,7 @@ rect_scale = Vector2( 0.441185, 0.441185 )
 texture = ExtResource( 28 )
 
 [node name="TextureRect12" type="TextureRect" parent="content/9"]
+modulate = Color( 0, 0, 0, 1 )
 margin_left = 186.0
 margin_top = 718.0
 margin_right = 226.0
@@ -3208,6 +3246,7 @@ rect_scale = Vector2( 0.441185, 0.441185 )
 texture = ExtResource( 28 )
 
 [node name="TextureRect13" type="TextureRect" parent="content/9"]
+modulate = Color( 0, 0, 0, 1 )
 margin_left = 196.0
 margin_top = 768.0
 margin_right = 236.0
@@ -3216,6 +3255,7 @@ rect_scale = Vector2( 0.441185, 0.441185 )
 texture = ExtResource( 28 )
 
 [node name="TextureRect14" type="TextureRect" parent="content/9"]
+modulate = Color( 0, 0, 0, 1 )
 margin_left = 301.0
 margin_top = 768.0
 margin_right = 341.0
@@ -3224,6 +3264,7 @@ rect_scale = Vector2( 0.441185, 0.441185 )
 texture = ExtResource( 28 )
 
 [node name="TextureRect8" type="TextureRect" parent="content/9"]
+modulate = Color( 0, 0, 0, 1 )
 margin_left = 138.0
 margin_top = 618.0
 margin_right = 178.0
@@ -3238,7 +3279,7 @@ modulate = Color( 1, 1, 1, 0 )
 [node name="bg" type="ColorRect" parent="content/10"]
 margin_right = 540.0
 margin_bottom = 960.0
-color = Color( 0.0627451, 0.831373, 0.741176, 0.843137 )
+color = Color( 0.721569, 0.807843, 0.8, 1 )
 
 [node name="Label" type="Label" parent="content/10"]
 margin_left = 18.0
@@ -3254,6 +3295,7 @@ margin_left = 38.0
 margin_top = 103.0
 margin_right = 517.0
 margin_bottom = 163.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 1 )
 text = "Contoh:
 Tentukan nilai a° dan b°"
@@ -3271,6 +3313,7 @@ margin_left = 38.0
 margin_top = 323.0
 margin_right = 517.0
 margin_bottom = 864.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 1 )
 text = "Jawaban :
 
@@ -3301,7 +3344,7 @@ modulate = Color( 1, 1, 1, 0 )
 [node name="bg" type="ColorRect" parent="content/11"]
 margin_right = 540.0
 margin_bottom = 960.0
-color = Color( 0.831373, 0.0627451, 0.439216, 0.843137 )
+color = Color( 0.8, 0.733333, 0.768627, 1 )
 
 [node name="Label" type="Label" parent="content/11"]
 margin_left = 18.0
@@ -3317,6 +3360,7 @@ margin_left = 38.0
 margin_top = 90.0
 margin_right = 517.0
 margin_bottom = 179.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 1 )
 text = "Pada materi ini yang akan di pelajari yaitu tentang melukis sudut-sudut istimewa (90°, 60°, 45°, dan 30°).
 Contoh:"
@@ -3327,6 +3371,7 @@ margin_left = 38.0
 margin_top = 474.0
 margin_right = 243.0
 margin_bottom = 496.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 1 )
 text = "Sudut 60°"
 autowrap = true
@@ -3336,6 +3381,7 @@ margin_left = 38.0
 margin_top = 212.0
 margin_right = 241.0
 margin_bottom = 234.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 1 )
 text = "Sudut 90°"
 autowrap = true
@@ -3352,6 +3398,7 @@ margin_left = 308.0
 margin_top = 212.0
 margin_right = 511.0
 margin_bottom = 234.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 1 )
 text = "Sudut 45°"
 autowrap = true
@@ -3378,6 +3425,7 @@ margin_left = 307.0
 margin_top = 474.0
 margin_right = 512.0
 margin_bottom = 496.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 1 )
 text = "Sudut 30°"
 autowrap = true

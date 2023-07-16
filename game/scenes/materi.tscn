@@ -2865,13 +2865,14 @@ margin_left = 38.0
 margin_top = 222.0
 margin_right = 275.0
 margin_bottom = 393.0
+rect_scale = Vector2( 0.581774, 0.581774 )
 texture = ExtResource( 13 )
 
 [node name="Label9" type="Label" parent="content/5"]
 margin_left = 38.0
-margin_top = 393.0
+margin_top = 488.0
 margin_right = 517.0
-margin_bottom = 615.0
+margin_bottom = 710.0
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = ExtResource( 1 )
 text = "Jawaban :
