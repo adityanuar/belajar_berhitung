@@ -2488,17 +2488,18 @@ margin_left = 40.0
 margin_top = 136.0
 margin_right = 195.0
 margin_bottom = 244.0
+rect_scale = Vector2( 2.77211, 2.76275 )
 texture = ExtResource( 8 )
 
 [node name="opsi" type="Node2D" parent="1"]
 position = Vector2( 0, -3.05176e-05 )
 
 [node name="d" type="TextureButton" parent="1/opsi"]
-margin_left = 119.0
-margin_top = 710.0
-margin_right = 439.0
-margin_bottom = 858.0
-rect_scale = Vector2( 1, 0.627 )
+margin_left = 263.0
+margin_top = 633.0
+margin_right = 583.0
+margin_bottom = 781.0
+rect_scale = Vector2( 0.68, 0.627 )
 texture_normal = ExtResource( 3 )
 texture_pressed = ExtResource( 4 )
 
@@ -2509,7 +2510,7 @@ margin_left = 60.5821
 margin_top = 38.2983
 margin_right = 113.582
 margin_bottom = 86.2983
-rect_scale = Vector2( 0.417518, 1.03275 )
+rect_scale = Vector2( 1, 1.033 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
 text = "d. 60°"
@@ -2533,11 +2534,11 @@ rect_scale = Vector2( 0.216063, 0.216063 )
 texture = ExtResource( 10 )
 
 [node name="c" type="TextureButton" parent="1/opsi"]
-margin_left = 119.0
-margin_top = 611.0
-margin_right = 439.0
-margin_bottom = 759.0
-rect_scale = Vector2( 1, 0.627 )
+margin_left = 36.0
+margin_top = 630.0
+margin_right = 356.0
+margin_bottom = 778.0
+rect_scale = Vector2( 0.68, 0.627 )
 texture_normal = ExtResource( 3 )
 texture_pressed = ExtResource( 4 )
 
@@ -2548,7 +2549,7 @@ margin_left = 60.5821
 margin_top = 38.2983
 margin_right = 113.582
 margin_bottom = 86.2983
-rect_scale = Vector2( 0.417518, 1.03275 )
+rect_scale = Vector2( 1, 1.033 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
 text = "c. 50°"
@@ -2572,11 +2573,11 @@ rect_scale = Vector2( 0.216063, 0.216063 )
 texture = ExtResource( 10 )
 
 [node name="b" type="TextureButton" parent="1/opsi"]
-margin_left = 119.0
-margin_top = 512.0
-margin_right = 439.0
-margin_bottom = 660.0
-rect_scale = Vector2( 1, 0.627 )
+margin_left = 261.0
+margin_top = 514.0
+margin_right = 581.0
+margin_bottom = 662.0
+rect_scale = Vector2( 0.68, 0.627 )
 texture_normal = ExtResource( 3 )
 texture_pressed = ExtResource( 4 )
 
@@ -2587,7 +2588,7 @@ margin_left = 60.5821
 margin_top = 38.2983
 margin_right = 113.582
 margin_bottom = 86.2983
-rect_scale = Vector2( 0.417518, 1.03275 )
+rect_scale = Vector2( 1, 1.033 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
 text = "b. 40°"
@@ -2611,11 +2612,11 @@ rect_scale = Vector2( 0.216063, 0.216063 )
 texture = ExtResource( 10 )
 
 [node name="a" type="TextureButton" parent="1/opsi"]
-margin_left = 119.0
-margin_top = 416.0
-margin_right = 439.0
-margin_bottom = 564.0
-rect_scale = Vector2( 1, 0.627 )
+margin_left = 36.0
+margin_top = 514.0
+margin_right = 356.0
+margin_bottom = 662.0
+rect_scale = Vector2( 0.68, 0.620304 )
 texture_normal = ExtResource( 3 )
 texture_pressed = ExtResource( 4 )
 
@@ -2626,7 +2627,7 @@ margin_left = 60.5821
 margin_top = 38.2983
 margin_right = 113.582
 margin_bottom = 86.2983
-rect_scale = Vector2( 0.417518, 1.03275 )
+rect_scale = Vector2( 1, 1.033 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
 text = "a. 30°"
@@ -2710,17 +2711,18 @@ margin_left = 40.0
 margin_top = 136.0
 margin_right = 195.0
 margin_bottom = 244.0
+rect_scale = Vector2( 2.06951, 2.06951 )
 texture = ExtResource( 9 )
 
 [node name="opsi" type="Node2D" parent="2"]
 position = Vector2( 0, -3.05176e-05 )
 
 [node name="d" type="TextureButton" parent="2/opsi"]
-margin_left = 119.0
-margin_top = 710.0
-margin_right = 439.0
-margin_bottom = 858.0
-rect_scale = Vector2( 1, 0.627 )
+margin_left = 263.0
+margin_top = 633.0
+margin_right = 583.0
+margin_bottom = 781.0
+rect_scale = Vector2( 0.68, 0.627 )
 texture_normal = ExtResource( 3 )
 texture_pressed = ExtResource( 4 )
 
@@ -2731,7 +2733,7 @@ margin_left = 60.5821
 margin_top = 38.2983
 margin_right = 113.582
 margin_bottom = 86.2983
-rect_scale = Vector2( 0.417518, 1.03275 )
+rect_scale = Vector2( 1, 1.033 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
 text = "d. 59°"
@@ -2755,11 +2757,11 @@ rect_scale = Vector2( 0.216063, 0.216063 )
 texture = ExtResource( 10 )
 
 [node name="c" type="TextureButton" parent="2/opsi"]
-margin_left = 119.0
-margin_top = 611.0
-margin_right = 439.0
-margin_bottom = 759.0
-rect_scale = Vector2( 1, 0.627 )
+margin_left = 36.0
+margin_top = 630.0
+margin_right = 356.0
+margin_bottom = 778.0
+rect_scale = Vector2( 0.68, 0.627 )
 texture_normal = ExtResource( 3 )
 texture_pressed = ExtResource( 4 )
 
@@ -2770,7 +2772,7 @@ margin_left = 60.5821
 margin_top = 38.2983
 margin_right = 113.582
 margin_bottom = 86.2983
-rect_scale = Vector2( 0.417518, 1.03275 )
+rect_scale = Vector2( 1, 1.033 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
 text = "c. 69°"
@@ -2794,11 +2796,11 @@ rect_scale = Vector2( 0.216063, 0.216063 )
 texture = ExtResource( 10 )
 
 [node name="b" type="TextureButton" parent="2/opsi"]
-margin_left = 119.0
-margin_top = 512.0
-margin_right = 439.0
-margin_bottom = 660.0
-rect_scale = Vector2( 1, 0.627 )
+margin_left = 261.0
+margin_top = 514.0
+margin_right = 581.0
+margin_bottom = 662.0
+rect_scale = Vector2( 0.68, 0.627 )
 texture_normal = ExtResource( 3 )
 texture_pressed = ExtResource( 4 )
 
@@ -2809,7 +2811,7 @@ margin_left = 60.5821
 margin_top = 38.2983
 margin_right = 113.582
 margin_bottom = 86.2983
-rect_scale = Vector2( 0.417518, 1.03275 )
+rect_scale = Vector2( 1, 1.033 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
 text = "b. 118°"
@@ -2833,11 +2835,11 @@ rect_scale = Vector2( 0.216063, 0.216063 )
 texture = ExtResource( 10 )
 
 [node name="a" type="TextureButton" parent="2/opsi"]
-margin_left = 119.0
-margin_top = 416.0
-margin_right = 439.0
-margin_bottom = 564.0
-rect_scale = Vector2( 1, 0.627 )
+margin_left = 36.0
+margin_top = 514.0
+margin_right = 356.0
+margin_bottom = 662.0
+rect_scale = Vector2( 0.68, 0.627 )
 texture_normal = ExtResource( 3 )
 texture_pressed = ExtResource( 4 )
 
@@ -2848,7 +2850,7 @@ margin_left = 60.5821
 margin_top = 38.2983
 margin_right = 113.582
 margin_bottom = 86.2983
-rect_scale = Vector2( 0.417518, 1.03275 )
+rect_scale = Vector2( 1, 1.033 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
 text = "a. 123°"
@@ -2950,18 +2952,19 @@ autowrap = true
 margin_left = 40.0
 margin_top = 168.0
 margin_right = 242.0
-margin_bottom = 288.0
+margin_bottom = 260.0
+rect_scale = Vector2( 2.2188, 2.2188 )
 texture = ExtResource( 14 )
 
 [node name="opsi" type="Node2D" parent="3"]
 position = Vector2( 0, -3.05176e-05 )
 
 [node name="d" type="TextureButton" parent="3/opsi"]
-margin_left = 119.0
-margin_top = 710.0
-margin_right = 439.0
-margin_bottom = 858.0
-rect_scale = Vector2( 1, 0.627 )
+margin_left = 263.0
+margin_top = 630.0
+margin_right = 583.0
+margin_bottom = 778.0
+rect_scale = Vector2( 0.68, 0.627 )
 texture_normal = ExtResource( 3 )
 texture_pressed = ExtResource( 4 )
 
@@ -2972,7 +2975,7 @@ margin_left = 60.5821
 margin_top = 38.2983
 margin_right = 113.582
 margin_bottom = 86.2983
-rect_scale = Vector2( 0.417518, 1.03275 )
+rect_scale = Vector2( 1, 1.033 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
 text = "d. 140°"
@@ -2996,11 +2999,11 @@ rect_scale = Vector2( 0.216063, 0.216063 )
 texture = ExtResource( 10 )
 
 [node name="c" type="TextureButton" parent="3/opsi"]
-margin_left = 119.0
-margin_top = 611.0
-margin_right = 439.0
-margin_bottom = 759.0
-rect_scale = Vector2( 1, 0.627 )
+margin_left = 36.0
+margin_top = 630.0
+margin_right = 356.0
+margin_bottom = 778.0
+rect_scale = Vector2( 0.68, 0.627 )
 texture_normal = ExtResource( 3 )
 texture_pressed = ExtResource( 4 )
 
@@ -3011,7 +3014,7 @@ margin_left = 60.5821
 margin_top = 38.2983
 margin_right = 113.582
 margin_bottom = 86.2983
-rect_scale = Vector2( 0.417518, 1.03275 )
+rect_scale = Vector2( 1, 1.033 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
 text = "c. 100°"
@@ -3035,11 +3038,11 @@ rect_scale = Vector2( 0.216063, 0.216063 )
 texture = ExtResource( 10 )
 
 [node name="b" type="TextureButton" parent="3/opsi"]
-margin_left = 119.0
-margin_top = 512.0
-margin_right = 439.0
-margin_bottom = 660.0
-rect_scale = Vector2( 1, 0.627 )
+margin_left = 261.0
+margin_top = 514.0
+margin_right = 581.0
+margin_bottom = 662.0
+rect_scale = Vector2( 0.68, 0.627 )
 texture_normal = ExtResource( 3 )
 texture_pressed = ExtResource( 4 )
 
@@ -3050,7 +3053,7 @@ margin_left = 60.5821
 margin_top = 38.2983
 margin_right = 113.582
 margin_bottom = 86.2983
-rect_scale = Vector2( 0.417518, 1.03275 )
+rect_scale = Vector2( 1, 1.033 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
 text = "b. 80°"
@@ -3074,11 +3077,11 @@ rect_scale = Vector2( 0.216063, 0.216063 )
 texture = ExtResource( 10 )
 
 [node name="a" type="TextureButton" parent="3/opsi"]
-margin_left = 119.0
-margin_top = 416.0
-margin_right = 439.0
-margin_bottom = 564.0
-rect_scale = Vector2( 1, 0.627 )
+margin_left = 36.0
+margin_top = 514.0
+margin_right = 356.0
+margin_bottom = 662.0
+rect_scale = Vector2( 0.68, 0.627 )
 texture_normal = ExtResource( 3 )
 texture_pressed = ExtResource( 4 )
 
@@ -3089,7 +3092,7 @@ margin_left = 60.5821
 margin_top = 38.2983
 margin_right = 113.582
 margin_bottom = 86.2983
-rect_scale = Vector2( 0.417518, 1.03275 )
+rect_scale = Vector2( 1, 1.033 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
 text = "a. 40°"
@@ -3179,11 +3182,11 @@ texture = ExtResource( 18 )
 position = Vector2( 0, -3.05176e-05 )
 
 [node name="d" type="TextureButton" parent="4/opsi"]
-margin_left = 119.0
-margin_top = 710.0
-margin_right = 439.0
-margin_bottom = 858.0
-rect_scale = Vector2( 1, 0.627 )
+margin_left = 261.0
+margin_top = 630.0
+margin_right = 581.0
+margin_bottom = 778.0
+rect_scale = Vector2( 0.68, 0.627 )
 texture_normal = ExtResource( 3 )
 texture_pressed = ExtResource( 4 )
 
@@ -3194,7 +3197,7 @@ margin_left = 60.5821
 margin_top = 38.2983
 margin_right = 113.582
 margin_bottom = 86.2983
-rect_scale = Vector2( 0.417518, 1.03275 )
+rect_scale = Vector2( 1, 1.033 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
 text = "d. 180°"
@@ -3218,11 +3221,11 @@ rect_scale = Vector2( 0.216063, 0.216063 )
 texture = ExtResource( 10 )
 
 [node name="c" type="TextureButton" parent="4/opsi"]
-margin_left = 119.0
-margin_top = 611.0
-margin_right = 439.0
-margin_bottom = 759.0
-rect_scale = Vector2( 1, 0.627 )
+margin_left = 36.0
+margin_top = 630.0
+margin_right = 356.0
+margin_bottom = 778.0
+rect_scale = Vector2( 0.68, 0.627 )
 texture_normal = ExtResource( 3 )
 texture_pressed = ExtResource( 4 )
 
@@ -3233,7 +3236,7 @@ margin_left = 60.5821
 margin_top = 38.2983
 margin_right = 113.582
 margin_bottom = 86.2983
-rect_scale = Vector2( 0.417518, 1.03275 )
+rect_scale = Vector2( 1, 1.033 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
 text = "c. 120°"
@@ -3257,11 +3260,11 @@ rect_scale = Vector2( 0.216063, 0.216063 )
 texture = ExtResource( 10 )
 
 [node name="b" type="TextureButton" parent="4/opsi"]
-margin_left = 119.0
-margin_top = 512.0
-margin_right = 439.0
-margin_bottom = 660.0
-rect_scale = Vector2( 1, 0.627 )
+margin_left = 261.0
+margin_top = 514.0
+margin_right = 581.0
+margin_bottom = 662.0
+rect_scale = Vector2( 0.68, 0.627 )
 texture_normal = ExtResource( 3 )
 texture_pressed = ExtResource( 4 )
 
@@ -3272,7 +3275,7 @@ margin_left = 60.5821
 margin_top = 38.2983
 margin_right = 113.582
 margin_bottom = 86.2983
-rect_scale = Vector2( 0.417518, 1.03275 )
+rect_scale = Vector2( 1, 1.033 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
 text = "b. 60°"
@@ -3296,11 +3299,11 @@ rect_scale = Vector2( 0.216063, 0.216063 )
 texture = ExtResource( 10 )
 
 [node name="a" type="TextureButton" parent="4/opsi"]
-margin_left = 119.0
-margin_top = 416.0
-margin_right = 439.0
-margin_bottom = 564.0
-rect_scale = Vector2( 1, 0.627 )
+margin_left = 36.0
+margin_top = 514.0
+margin_right = 356.0
+margin_bottom = 662.0
+rect_scale = Vector2( 0.68, 0.627 )
 texture_normal = ExtResource( 3 )
 texture_pressed = ExtResource( 4 )
 
@@ -3311,7 +3314,7 @@ margin_left = 60.5821
 margin_top = 38.2983
 margin_right = 113.582
 margin_bottom = 86.2983
-rect_scale = Vector2( 0.417518, 1.03275 )
+rect_scale = Vector2( 1, 1.033 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
 text = "a. 30°"
@@ -3393,15 +3396,42 @@ custom_fonts/font = ExtResource( 13 )
 text = "5. Jika diketahui    P = (2x + 8)° dan     Q = (x – 5)°. Kedua sudut tersebut berpenyiku maka     Q adalah…."
 autowrap = true
 
+[node name="TextureRect7" type="TextureRect" parent="5"]
+modulate = Color( 0, 0, 0, 1 )
+margin_left = 152.0
+margin_top = 103.0
+margin_right = 192.0
+margin_bottom = 146.0
+rect_scale = Vector2( 0.441185, 0.441185 )
+texture = ExtResource( 11 )
+
+[node name="TextureRect8" type="TextureRect" parent="5"]
+modulate = Color( 0, 0, 0, 1 )
+margin_left = 303.0
+margin_top = 103.0
+margin_right = 343.0
+margin_bottom = 146.0
+rect_scale = Vector2( 0.441185, 0.441185 )
+texture = ExtResource( 11 )
+
+[node name="TextureRect9" type="TextureRect" parent="5"]
+modulate = Color( 0, 0, 0, 1 )
+margin_left = 234.0
+margin_top = 128.0
+margin_right = 274.0
+margin_bottom = 171.0
+rect_scale = Vector2( 0.441185, 0.441185 )
+texture = ExtResource( 11 )
+
 [node name="opsi" type="Node2D" parent="5"]
-position = Vector2( 0, -3.05176e-05 )
+position = Vector2( -610, 0 )
 
 [node name="d" type="TextureButton" parent="5/opsi"]
-margin_left = 119.0
-margin_top = 710.0
-margin_right = 439.0
-margin_bottom = 858.0
-rect_scale = Vector2( 1, 0.627 )
+margin_left = 261.0
+margin_top = 630.0
+margin_right = 581.0
+margin_bottom = 778.0
+rect_scale = Vector2( 0.68, 0.627 )
 texture_normal = ExtResource( 3 )
 texture_pressed = ExtResource( 4 )
 
@@ -3412,7 +3442,7 @@ margin_left = 60.5821
 margin_top = 38.2983
 margin_right = 113.582
 margin_bottom = 86.2983
-rect_scale = Vector2( 0.417518, 1.03275 )
+rect_scale = Vector2( 1, 1.033 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
 text = "d. 32°"
@@ -3436,11 +3466,11 @@ rect_scale = Vector2( 0.216063, 0.216063 )
 texture = ExtResource( 10 )
 
 [node name="c" type="TextureButton" parent="5/opsi"]
-margin_left = 119.0
-margin_top = 611.0
-margin_right = 439.0
-margin_bottom = 759.0
-rect_scale = Vector2( 1, 0.627 )
+margin_left = 36.0
+margin_top = 630.0
+margin_right = 356.0
+margin_bottom = 778.0
+rect_scale = Vector2( 0.68, 0.627 )
 texture_normal = ExtResource( 3 )
 texture_pressed = ExtResource( 4 )
 
@@ -3451,7 +3481,7 @@ margin_left = 60.5821
 margin_top = 38.2983
 margin_right = 113.582
 margin_bottom = 86.2983
-rect_scale = Vector2( 0.417518, 1.03275 )
+rect_scale = Vector2( 1, 1.033 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
 text = "c. 24°"
@@ -3475,11 +3505,11 @@ rect_scale = Vector2( 0.216063, 0.216063 )
 texture = ExtResource( 10 )
 
 [node name="b" type="TextureButton" parent="5/opsi"]
-margin_left = 119.0
-margin_top = 512.0
-margin_right = 439.0
-margin_bottom = 660.0
-rect_scale = Vector2( 1, 0.627 )
+margin_left = 261.0
+margin_top = 514.0
+margin_right = 581.0
+margin_bottom = 662.0
+rect_scale = Vector2( 0.68, 0.627 )
 texture_normal = ExtResource( 3 )
 texture_pressed = ExtResource( 4 )
 
@@ -3490,7 +3520,7 @@ margin_left = 60.5821
 margin_top = 38.2983
 margin_right = 113.582
 margin_bottom = 86.2983
-rect_scale = Vector2( 0.417518, 1.03275 )
+rect_scale = Vector2( 1, 1.033 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
 text = "b. 16°"
@@ -3514,11 +3544,11 @@ rect_scale = Vector2( 0.216063, 0.216063 )
 texture = ExtResource( 10 )
 
 [node name="a" type="TextureButton" parent="5/opsi"]
-margin_left = 119.0
-margin_top = 416.0
-margin_right = 439.0
-margin_bottom = 564.0
-rect_scale = Vector2( 1, 0.627 )
+margin_left = 36.0
+margin_top = 514.0
+margin_right = 356.0
+margin_bottom = 662.0
+rect_scale = Vector2( 0.68, 0.627 )
 texture_normal = ExtResource( 3 )
 texture_pressed = ExtResource( 4 )
 
@@ -3529,7 +3559,7 @@ margin_left = 60.5821
 margin_top = 38.2983
 margin_right = 113.582
 margin_bottom = 86.2983
-rect_scale = Vector2( 0.417518, 1.03275 )
+rect_scale = Vector2( 1, 1.033 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
 text = "a. 8°"
@@ -3593,33 +3623,6 @@ margin_right = 136.451
 margin_bottom = 68.8565
 custom_fonts/font = SubResource( 3 )
 text = "OK"
-
-[node name="TextureRect7" type="TextureRect" parent="5/opsi"]
-modulate = Color( 0, 0, 0, 1 )
-margin_left = 152.0
-margin_top = 103.0
-margin_right = 192.0
-margin_bottom = 146.0
-rect_scale = Vector2( 0.441185, 0.441185 )
-texture = ExtResource( 11 )
-
-[node name="TextureRect8" type="TextureRect" parent="5/opsi"]
-modulate = Color( 0, 0, 0, 1 )
-margin_left = 303.0
-margin_top = 103.0
-margin_right = 343.0
-margin_bottom = 146.0
-rect_scale = Vector2( 0.441185, 0.441185 )
-texture = ExtResource( 11 )
-
-[node name="TextureRect9" type="TextureRect" parent="5/opsi"]
-modulate = Color( 0, 0, 0, 1 )
-margin_left = 234.0
-margin_top = 128.0
-margin_right = 274.0
-margin_bottom = 171.0
-rect_scale = Vector2( 0.441185, 0.441185 )
-texture = ExtResource( 11 )
 
 [node name="TextureRect10" type="TextureRect" parent="5/opsi"]
 modulate = Color( 0, 0, 0, 1 )
@@ -3687,20 +3690,21 @@ autowrap = true
 
 [node name="TextureRect" type="TextureRect" parent="6"]
 margin_left = 40.0
-margin_top = 168.0
-margin_right = 242.0
-margin_bottom = 288.0
+margin_top = 143.0
+margin_right = 252.0
+margin_bottom = 330.0
+rect_scale = Vector2( 1.32843, 1.32843 )
 texture = ExtResource( 17 )
 
 [node name="opsi" type="Node2D" parent="6"]
 position = Vector2( 0, -3.05176e-05 )
 
 [node name="d" type="TextureButton" parent="6/opsi"]
-margin_left = 119.0
-margin_top = 710.0
-margin_right = 439.0
-margin_bottom = 858.0
-rect_scale = Vector2( 1, 0.627 )
+margin_left = 261.0
+margin_top = 630.0
+margin_right = 581.0
+margin_bottom = 778.0
+rect_scale = Vector2( 0.68, 0.627 )
 texture_normal = ExtResource( 3 )
 texture_pressed = ExtResource( 4 )
 
@@ -3711,7 +3715,7 @@ margin_left = 60.5821
 margin_top = 38.2983
 margin_right = 113.582
 margin_bottom = 86.2983
-rect_scale = Vector2( 0.417518, 1.03275 )
+rect_scale = Vector2( 1, 1.033 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
 text = "d. 116°"
@@ -3735,11 +3739,11 @@ rect_scale = Vector2( 0.216063, 0.216063 )
 texture = ExtResource( 10 )
 
 [node name="c" type="TextureButton" parent="6/opsi"]
-margin_left = 119.0
-margin_top = 611.0
-margin_right = 439.0
-margin_bottom = 759.0
-rect_scale = Vector2( 1, 0.627 )
+margin_left = 36.0
+margin_top = 630.0
+margin_right = 356.0
+margin_bottom = 778.0
+rect_scale = Vector2( 0.68, 0.627 )
 texture_normal = ExtResource( 3 )
 texture_pressed = ExtResource( 4 )
 
@@ -3750,7 +3754,7 @@ margin_left = 60.5821
 margin_top = 38.2983
 margin_right = 113.582
 margin_bottom = 86.2983
-rect_scale = Vector2( 0.417518, 1.03275 )
+rect_scale = Vector2( 1, 1.033 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
 text = "c. 106°"
@@ -3774,11 +3778,11 @@ rect_scale = Vector2( 0.216063, 0.216063 )
 texture = ExtResource( 10 )
 
 [node name="b" type="TextureButton" parent="6/opsi"]
-margin_left = 119.0
-margin_top = 512.0
-margin_right = 439.0
-margin_bottom = 660.0
-rect_scale = Vector2( 1, 0.627 )
+margin_left = 261.0
+margin_top = 514.0
+margin_right = 581.0
+margin_bottom = 662.0
+rect_scale = Vector2( 0.68, 0.627 )
 texture_normal = ExtResource( 3 )
 texture_pressed = ExtResource( 4 )
 
@@ -3789,7 +3793,7 @@ margin_left = 60.5821
 margin_top = 38.2983
 margin_right = 113.582
 margin_bottom = 86.2983
-rect_scale = Vector2( 0.417518, 1.03275 )
+rect_scale = Vector2( 1, 1.033 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
 text = "b. 96°"
@@ -3813,11 +3817,11 @@ rect_scale = Vector2( 0.216063, 0.216063 )
 texture = ExtResource( 10 )
 
 [node name="a" type="TextureButton" parent="6/opsi"]
-margin_left = 119.0
-margin_top = 416.0
-margin_right = 439.0
-margin_bottom = 564.0
-rect_scale = Vector2( 1, 0.627 )
+margin_left = 36.0
+margin_top = 514.0
+margin_right = 356.0
+margin_bottom = 662.0
+rect_scale = Vector2( 0.68, 0.627 )
 texture_normal = ExtResource( 3 )
 texture_pressed = ExtResource( 4 )
 
@@ -3828,7 +3832,7 @@ margin_left = 60.5821
 margin_top = 38.2983
 margin_right = 113.582
 margin_bottom = 86.2983
-rect_scale = Vector2( 0.417518, 1.03275 )
+rect_scale = Vector2( 1, 1.033 )
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 3 )
 text = "a. 86°"

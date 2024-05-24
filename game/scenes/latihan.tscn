@@ -8888,9 +8888,9 @@ autowrap = true
 [node name="TextureRect" type="TextureRect" parent="12"]
 margin_left = 40.0
 margin_top = 132.0
-margin_right = 496.0
-margin_bottom = 359.0
-rect_scale = Vector2( 0.572812, 0.572812 )
+margin_right = 403.0
+margin_bottom = 315.0
+rect_scale = Vector2( 0.816512, 0.816512 )
 texture = ExtResource( 28 )
 
 [node name="Label4" type="Label" parent="12"]
