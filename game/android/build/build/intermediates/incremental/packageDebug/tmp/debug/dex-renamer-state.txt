@@ -1,4 +1,0 @@
-#Sun Jul 16 08:38:57 ICT 2023
-base.0=C\:\\D\\freelance\\belajar_berhitung\\game\\android\\build\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
-renamed.0=classes.dex
-path.0=classes.dex

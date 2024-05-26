@@ -1,0 +1,460 @@
+[gd_scene load_steps=16 format=2]
+
+[ext_resource path="res://fonts/content_text_font.tres" type="DynamicFont" id=1]
+[ext_resource path="res://images/arrow_left.png" type="Texture" id=2]
+[ext_resource path="res://images/read.png" type="Texture" id=3]
+[ext_resource path="res://images/arrow_left_pressed.png" type="Texture" id=4]
+[ext_resource path="res://images/arrow_right_disabled.png" type="Texture" id=5]
+[ext_resource path="res://images/arrow_right.png" type="Texture" id=6]
+[ext_resource path="res://images/arrow_left_disabled.png" type="Texture" id=7]
+[ext_resource path="res://images/arrow_right_pressed.png" type="Texture" id=8]
+[ext_resource path="res://fonts/content_text_title_font.tres" type="DynamicFont" id=9]
+[ext_resource path="res://scripts/kompetensi.gd" type="Script" id=25]
+[ext_resource path="res://images/home.png" type="Texture" id=26]
+[ext_resource path="res://images/home_pressed.png" type="Texture" id=27]
+
+[sub_resource type="Animation" id=1]
+resource_name = "1"
+tracks/0/type = "value"
+tracks/0/path = NodePath("content/1:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "bezier"
+tracks/1/path = NodePath("content/1:modulate:r")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"points": PoolRealArray( 1, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 1 )
+}
+tracks/2/type = "bezier"
+tracks/2/path = NodePath("content/1:modulate:g")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"points": PoolRealArray( 1, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 1 )
+}
+tracks/3/type = "bezier"
+tracks/3/path = NodePath("content/1:modulate:b")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"points": PoolRealArray( 1, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 1 )
+}
+tracks/4/type = "bezier"
+tracks/4/path = NodePath("content/1:modulate:a")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"points": PoolRealArray( 0, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 1 )
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("content/2:visible")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=3]
+resource_name = "2"
+tracks/0/type = "value"
+tracks/0/path = NodePath("content/2:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "bezier"
+tracks/1/path = NodePath("content/2:modulate:r")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"points": PoolRealArray( 1, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 1 )
+}
+tracks/2/type = "bezier"
+tracks/2/path = NodePath("content/2:modulate:g")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"points": PoolRealArray( 1, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 1 )
+}
+tracks/3/type = "bezier"
+tracks/3/path = NodePath("content/2:modulate:b")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"points": PoolRealArray( 1, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 1 )
+}
+tracks/4/type = "bezier"
+tracks/4/path = NodePath("content/2:modulate:a")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"points": PoolRealArray( 0, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 1 )
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("content/1:visible")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=2]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("content/1:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ false ]
+}
+tracks/1/type = "bezier"
+tracks/1/path = NodePath("content/1:modulate:r")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"points": PoolRealArray( 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/2/type = "bezier"
+tracks/2/path = NodePath("content/1:modulate:g")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"points": PoolRealArray( 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/3/type = "bezier"
+tracks/3/path = NodePath("content/1:modulate:b")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"points": PoolRealArray( 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/4/type = "bezier"
+tracks/4/path = NodePath("content/1:modulate:a")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"points": PoolRealArray( 0, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("content/2:visible")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ false ]
+}
+tracks/6/type = "bezier"
+tracks/6/path = NodePath("content/2:modulate:r")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"points": PoolRealArray( 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/7/type = "bezier"
+tracks/7/path = NodePath("content/2:modulate:g")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"points": PoolRealArray( 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/8/type = "bezier"
+tracks/8/path = NodePath("content/2:modulate:b")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"points": PoolRealArray( 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/9/type = "bezier"
+tracks/9/path = NodePath("content/2:modulate:a")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/keys = {
+"points": PoolRealArray( 0, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+
+[node name="root" type="Node2D"]
+script = ExtResource( 25 )
+
+[node name="BG" type="TextureRect" parent="."]
+margin_right = 540.0
+margin_bottom = 960.0
+texture = ExtResource( 3 )
+
+[node name="content" type="Node2D" parent="."]
+
+[node name="1" type="Node2D" parent="content"]
+visible = false
+modulate = Color( 1, 1, 1, 0 )
+
+[node name="bg" type="ColorRect" parent="content/1"]
+margin_right = 540.0
+margin_bottom = 960.0
+color = Color( 1, 0.807843, 0.666667, 1 )
+
+[node name="Label" type="Label" parent="content/1"]
+margin_left = 18.0
+margin_top = 29.0
+margin_right = 282.0
+margin_bottom = 58.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 9 )
+text = "Kompetensi Dasar"
+
+[node name="Label8" type="Label" parent="content/1"]
+margin_left = 18.0
+margin_top = 81.0
+margin_right = 522.0
+margin_bottom = 149.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 1 )
+text = "3.10 Menganalisis hubungan antar sudut sebagai akibat dari dua garis sejajar yang dipotong oleh garis transversal."
+autowrap = true
+
+[node name="Label9" type="Label" parent="content/1"]
+margin_left = 19.0
+margin_top = 149.0
+margin_right = 423.0
+margin_bottom = 171.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 1 )
+text = "3.10.1 Menjelaskan konsep dasar garis dan sudut."
+autowrap = true
+
+[node name="Label12" type="Label" parent="content/1"]
+margin_left = 19.0
+margin_top = 189.0
+margin_right = 431.0
+margin_bottom = 211.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 1 )
+text = "3.10.2 Mengidentifikasi jenis-jenis sudut dan garis."
+autowrap = true
+
+[node name="Label13" type="Label" parent="content/1"]
+margin_left = 18.0
+margin_top = 230.0
+margin_right = 422.0
+margin_bottom = 277.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 1 )
+text = "3.10.3 Menjelaskan hubungan antar sudut pada garis sejajar yang dipotong oleh garis transversal."
+autowrap = true
+
+[node name="Label10" type="Label" parent="content/1"]
+margin_left = 18.0
+margin_top = 294.0
+margin_right = 530.0
+margin_bottom = 341.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 1 )
+text = " 4.10 Menyelesaikan masalah yang berkaitan dengan persamaan dan pertidaksamaan linear satu variabel."
+autowrap = true
+
+[node name="Label11" type="Label" parent="content/1"]
+margin_left = 18.0
+margin_top = 358.0
+margin_right = 530.0
+margin_bottom = 405.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 1 )
+text = "4.4.1 Menggambar dan menyebutkan jenis-jenis garis dan sudut."
+autowrap = true
+
+[node name="Label14" type="Label" parent="content/1"]
+margin_left = 18.0
+margin_top = 418.0
+margin_right = 530.0
+margin_bottom = 465.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 1 )
+text = "4.4.2 Menyelesaikan soal-soal yang melibatkan garis dan sudut."
+autowrap = true
+
+[node name="2" type="Node2D" parent="content"]
+visible = false
+modulate = Color( 1, 1, 1, 0 )
+
+[node name="bg" type="ColorRect" parent="content/2"]
+margin_right = 540.0
+margin_bottom = 960.0
+color = Color( 1, 0.807843, 0.666667, 1 )
+
+[node name="Label" type="Label" parent="content/2"]
+margin_left = 18.0
+margin_top = 29.0
+margin_right = 282.0
+margin_bottom = 58.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 9 )
+text = "Tujuan Pembelajaran"
+
+[node name="Label8" type="Label" parent="content/2"]
+margin_left = 18.0
+margin_top = 81.0
+margin_right = 522.0
+margin_bottom = 103.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 1 )
+text = "1. Siswa dapat menjelaskan konsep dasar garis dan sudut."
+autowrap = true
+
+[node name="Label9" type="Label" parent="content/2"]
+margin_left = 18.0
+margin_top = 118.0
+margin_right = 509.0
+margin_bottom = 140.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 1 )
+text = "2. Siswa dapat mengidentifikasi jenis-jenis sudut dan garis."
+autowrap = true
+
+[node name="Label12" type="Label" parent="content/2"]
+margin_left = 18.0
+margin_top = 158.0
+margin_right = 515.0
+margin_bottom = 205.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 1 )
+text = "3. Siswa dapat menjelaskan hubungan antar sudut pada garis sejajar yang dipotong oleh garis transversal."
+autowrap = true
+
+[node name="Label13" type="Label" parent="content/2"]
+margin_left = 18.0
+margin_top = 220.0
+margin_right = 528.0
+margin_bottom = 267.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 1 )
+text = "4. Siswa dapat menggambar dan menyebutkan jenis-jenis garis dan sudut."
+autowrap = true
+
+[node name="Label10" type="Label" parent="content/2"]
+margin_left = 18.0
+margin_top = 277.0
+margin_right = 530.0
+margin_bottom = 324.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = ExtResource( 1 )
+text = "5. Siswa dapat menyelesaikan soal-soal yang melibatkan garis dan sudut."
+autowrap = true
+
+[node name="Control" type="Node2D" parent="."]
+
+[node name="LeftButton" type="TextureButton" parent="Control"]
+margin_left = 356.0
+margin_top = 880.0
+margin_right = 425.0
+margin_bottom = 951.0
+texture_normal = ExtResource( 2 )
+texture_pressed = ExtResource( 4 )
+texture_disabled = ExtResource( 7 )
+
+[node name="RightButton" type="TextureButton" parent="Control"]
+margin_left = 448.0
+margin_top = 880.0
+margin_right = 517.0
+margin_bottom = 951.0
+texture_normal = ExtResource( 6 )
+texture_pressed = ExtResource( 8 )
+texture_disabled = ExtResource( 5 )
+
+[node name="HomeButton" type="TextureButton" parent="Control"]
+margin_left = 18.0
+margin_top = 880.0
+margin_right = 87.0
+margin_bottom = 951.0
+texture_normal = ExtResource( 26 )
+texture_pressed = ExtResource( 27 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/1 = SubResource( 1 )
+anims/2 = SubResource( 3 )
+anims/RESET = SubResource( 2 )
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+
+[connection signal="pressed" from="Control/LeftButton" to="." method="_on_LeftButton_pressed"]
+[connection signal="pressed" from="Control/RightButton" to="." method="_on_RightButton_pressed"]
+[connection signal="pressed" from="Control/HomeButton" to="." method="_on_HomeButton_pressed"]

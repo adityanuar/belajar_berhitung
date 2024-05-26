@@ -1,0 +1,4 @@
+#Sun May 26 18:33:10 WIB 2024
+base.0=C\:\\D\\freelance\\fadi\\belajar_berhitung\\game\\android\\build\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
